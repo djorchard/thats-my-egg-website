@@ -13,30 +13,37 @@ Open http://127.0.0.1:8898. Stop the owned preview with Ctrl+C.
 No package installation is needed for the static build. Production signups use
 the separate private Cloudflare D1 database through the Worker in worker/.
 
-## Add a daily update
+## Add a development update
 
 Add a record to `content/posts.json`, using the existing post as the schema.
 Use a unique date-prefixed slug, a Brisbane calendar date, category, title,
 summary, image filename, imageAlt, and sections with headings and paragraphs.
+Aim for three relevant current images using the cover plus optional section
+image, imageAlt and imageCaption fields. Lead with why the player cares and
+use concise, dry humour grounded in the actual changes.
 Copy public-safe images into `public/assets/`. Do not backdate or invent work.
 Distinguish work in progress from released features and verified gameplay.
 
 Run the build and check commands, review the generated post, then commit and
 push to main. GitHub Actions rebuilds and publishes the homepage, archive,
-individual articles, RSS feed, and sitemap. Daniel authorized the daily Codex
-publisher on 7 November 2026. It runs at 9 pm Australia/Brisbane and follows the
+individual articles, RSS feed, and sitemap. Daniel authorized the Codex
+publisher on 7 November 2026, then changed posts to every four days. The
+publication gate uses Brisbane calendar dates and a 9 pm run time. It follows the
 private project's DAILY_WEBSITE_UPDATES.md, using verified changes and retaining
 evidence outside this public repository.
 
 ## Player pages
 
-- /playtest/ asks for a Roblox username, verifies it against Roblox, and saves
-  it privately before showing the confirmation. Duplicate user IDs have one
-  record. It does not send friend requests. Credentials stay in Windows
+- /playtest/ checks the submitted Roblox username's format and saves it
+  privately before showing confirmation. It does not authenticate Roblox
+  ownership or depend on Roblox availability. Case-insensitive duplicate names
+  have one record. It does not send friend requests. Credentials stay in Windows
   Credential Manager and Cloudflare secrets, never this repository.
+  New entries have a deduplicated email outbox. Email delivery requires the
+  configured sender domain and recipient to be enabled in Cloudflare.
 - /report-bug/ reuses the existing report form, screenshot annotations and
   private report service. No developer inbox or private report list is served.
-- /wiki/ is a curated player guide. content/public-wiki.json allows only public
+- /wiki/ covers 57 creatures and all 14 biomes plus Home. content/public-wiki.json allows only public
   fields; source reviews, scores, asset IDs and internal notes are excluded.
 - public/playtest-config.json and report-bug/config.json contain public
   service URLs and Turnstile site keys. They contain no secrets.

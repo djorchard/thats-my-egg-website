@@ -1,7 +1,15 @@
 {
   "updated": "7 November 2026",
-  "notice": "This guide covers a selection of creatures and the current game design. Features, artwork, and availability may change.",
+  "notice": "Features, artwork, and availability may change as the game is built. This guide includes the current creature roster and regions still in development.",
   "creatures": [
+    {
+      "slug": "albatrossaurus",
+      "name": "Albatrossaurus",
+      "description": "Slate-blue feathers and a cream crest frame Albatrossaurus's amber eyes and hooked golden bill. It strides between fern beds, then spreads its broad wings to glide along the island cliffs.",
+      "animalCombination": "Tyrannosaurus rex + Albatross",
+      "region": "lost_world",
+      "image": "albatrossaurus.png"
+    },
     {
       "slug": "alpanda",
       "name": "Alpanda",
@@ -9,6 +17,46 @@
       "animalCombination": "Alpaca + Panda",
       "region": "farmland",
       "image": "alpanda.png"
+    },
+    {
+      "slug": "armadillope",
+      "name": "Armadillope",
+      "description": "A nimble grazer wrapped in rounded bands of protective armour. Armadillope bounds across dry grass on slender legs, then folds itself into a compact shelter beneath a shady rock.",
+      "animalCombination": "Armadillo + Antelope",
+      "region": "desert",
+      "image": "armadillope.png"
+    },
+    {
+      "slug": "badgermunk",
+      "name": "Badgermunk",
+      "description": "A bright-eyed woodland burrower with a cream stripe, soft round ears and a broad banded tail. Badgermunk stashes seeds in tidy piles, then does a delighted little bounce when it finds one it forgot.",
+      "animalCombination": "American Badger + Eastern Chipmunk",
+      "region": "forest",
+      "image": "badgermunk.png"
+    },
+    {
+      "slug": "banaconda",
+      "name": "Banaconda",
+      "description": "A long, curved burrower with golden skin, tiny brown freckles and a smooth cream belly. Banaconda settles into warm loops beneath broad leaves and takes great care choosing its favourite patch of shade.",
+      "animalCombination": "Banana + Anaconda",
+      "region": "jungle",
+      "image": "banaconda.png"
+    },
+    {
+      "slug": "batacuda",
+      "name": "Batacuda",
+      "description": "A sleek blue swimmer with broad velvety wings and soft pointed ears. Batacuda follows ripples at dusk, sweeping low enough for its tail to brush the surface.",
+      "animalCombination": "Bat + Barracuda",
+      "region": "deep_ocean",
+      "image": "batacuda.png"
+    },
+    {
+      "slug": "bearbecue",
+      "name": "Bearbecue",
+      "description": "A broad-backed creature with a mantle of glowing feathers and a warm fan tail. Bearbecue pads along the rocky slopes, then folds its paws and lifts into the mountain air.",
+      "animalCombination": "Brown Bear + Phoenix",
+      "region": "volcano",
+      "image": "bearbecue.png"
     },
     {
       "slug": "botterfly",
@@ -27,6 +75,30 @@
       "image": "bunblebee.png"
     },
     {
+      "slug": "chinchillark",
+      "name": "Chinchillark",
+      "description": "A bright-eyed cliff dweller with rosy ears, soft gray fur and pale blue flight feathers. Chinchillark flutters between high ledges and lands with a quick shuffle of its golden talons.",
+      "animalCombination": "Long-tailed Chinchilla + Eurasian Skylark",
+      "region": "sky_mountains",
+      "image": "chinchillark.png"
+    },
+    {
+      "slug": "clownurchin",
+      "name": "Clownurchin",
+      "description": "A bright orange swimmer with bold white bands, violet-tipped spines and broad fan-shaped fins. Clownurchin drifts between reef ledges, steering with tiny fin flicks before darting into a favourite sheltered nook.",
+      "animalCombination": "Clownfish + Sea Urchin",
+      "region": "coral_reef",
+      "image": "clownurchin.png"
+    },
+    {
+      "slug": "cluckitty",
+      "name": "Cluckitty",
+      "description": "A plump featherball with pointed ears, bright eyes and a tiny beak. Cluckitty purrs in warm nesting places, then springs up to chase any leaf that tumbles past.",
+      "animalCombination": "Chicken + Kitten",
+      "region": "farmland",
+      "image": "cluckitty.png"
+    },
+    {
       "slug": "cockapoodle",
       "name": "Cockapoodle",
       "description": "A lively curly-coated companion with soft hanging ears, a sunny crest and feathered wings. Cockapoodle bounds along on four gentle paws, lifting its feathered tail whenever something catches its attention.",
@@ -35,12 +107,92 @@
       "image": "cockapoodle.png"
     },
     {
+      "slug": "crabuki",
+      "name": "Crabuki",
+      "description": "A round, masked shore-dweller with a sturdy shell, eight quick legs and two broad pincers. Crabuki shuffles sideways when excited, leaving dotted tracks across the wet sand.",
+      "animalCombination": "Crab + Tanuki",
+      "region": "coral_reef",
+      "image": "crabuki.png"
+    },
+    {
+      "slug": "crocodoodle-doo",
+      "name": "Crocodoodle Doo",
+      "description": "A low, green prowler with a broad snout, tiny rounded teeth and a bright red crest. Crocodoodle Doo carries a proud fan of tail feathers and greets the morning with a call that ends in a bubbly little snap.",
+      "animalCombination": "Crocodile + Rooster",
+      "region": "lake",
+      "image": "crocodoodle-doo.png"
+    },
+    {
+      "slug": "dandylion",
+      "name": "Dandylion",
+      "description": "A golden wanderer with soft padded paws and a bright mane of yellow petals. Dandylion's warm coat ends in one fluffy white seed head at the tip of its tail, which bobs gently with every step.",
+      "animalCombination": "Lion + Dandelion",
+      "region": "jungle",
+      "image": "dandylion.png"
+    },
+    {
       "slug": "donkeyote",
       "name": "Donkeyote",
       "description": "With tall ears, a golden mane and a bushy tail, Donkeyote trots along Clover Farm's fence lines and pauses to listen for the rustle of seed pods.",
       "animalCombination": "Donkey + Coyote",
       "region": "farmland",
       "image": "donkeyote.png"
+    },
+    {
+      "slug": "dragorilla",
+      "name": "Dragorilla",
+      "description": "A broad-shouldered giant with powerful hands, emerald scales and folded membrane wings. Dragorilla can look imposing until it carefully cups a tiny flower between its enormous palms.",
+      "animalCombination": "Dragon + Gorilla",
+      "region": "volcano",
+      "image": "dragorilla.png"
+    },
+    {
+      "slug": "fennthorn",
+      "name": "Fennthorn",
+      "description": "Fennthorn pauses on the dunes with its oversized ears raised and its blue-tipped tail held low.",
+      "animalCombination": "Fennec Fox + Thorny Devil",
+      "region": "desert",
+      "image": "fennthorn.png"
+    },
+    {
+      "slug": "flamingoat",
+      "name": "Flamingoat",
+      "description": "Pink feathers cover Flamingoat's slender body, rising along a graceful neck to a bright face with tiny curved horns. It steps through shallow water on dainty dark hooves, carefully testing each stone before moving on.",
+      "animalCombination": "Flamingo + Goat",
+      "region": "farmland",
+      "image": "flamingoat.png"
+    },
+    {
+      "slug": "froggle",
+      "name": "Froggle",
+      "description": "An emerald glider with a little hooked beak, feathered wings and powerful folded hind legs. Froggle watches the water from high branches before springing into the air and gliding down among floating leaves.",
+      "animalCombination": "Frog + Eagle",
+      "region": "sky_foothills",
+      "image": "froggle.png"
+    },
+    {
+      "slug": "geckostrich",
+      "name": "Geckostrich",
+      "description": "Geckostrich crosses the dunes on long legs. Its small wings flare when it picks up speed.",
+      "animalCombination": "Leopard Gecko + Ostrich",
+      "region": "desert",
+      "image": "geckostrich.png"
+    },
+    {
+      "slug": "giraffish",
+      "name": "Giraffish",
+      "description": "A golden swimmer with a long spotted neck, small rounded head crests and flowing amber fins. Giraffish threads its neck through the reeds, steering its scaled body with a gentle sweep of its forked tail.",
+      "animalCombination": "Giraffe + Fish",
+      "region": "coral_reef",
+      "image": "giraffish.png"
+    },
+    {
+      "slug": "glidigan",
+      "name": "Glidigan",
+      "description": "Glidigan bounds across snowy ledges and stretches its feathered membranes to glide from cliff to cliff.",
+      "animalCombination": "Sugar Glider + White-tailed Ptarmigan",
+      "region": "sky_mountains",
+      "image": "glidigan.png"
     },
     {
       "slug": "goosemoose",
@@ -59,12 +211,68 @@
       "image": "hamsturtle.png"
     },
     {
+      "slug": "harpyeena",
+      "name": "Harpyeena",
+      "description": "Rounded ears and broad feathered wings give Harpyeena its familiar outline. It pads along cliff paths and takes flight where the rock falls away.",
+      "animalCombination": "Harpy Eagle + Spotted Hyena",
+      "region": "sky_foothills",
+      "image": "harpyeena.png"
+    },
+    {
+      "slug": "hootopotamus",
+      "name": "Hootopotamus",
+      "description": "A round, downy water-dweller with bright amber eyes, a broad muzzle and soft feathered wings. Hootopotamus dozes beside cool pools by day, waking at dusk to listen for familiar calls.",
+      "animalCombination": "Owl + Hippopotamus",
+      "region": "lake",
+      "image": "hootopotamus.png"
+    },
+    {
+      "slug": "humminglow",
+      "name": "Humminglow",
+      "description": "Humminglow hovers among jungle flowers. At dusk its golden lantern shines between the leaves.",
+      "animalCombination": "Ruby-throated Hummingbird + Big Dipper Firefly",
+      "region": "jungle",
+      "image": "humminglow.png"
+    },
+    {
+      "slug": "iguanarwhal",
+      "name": "Iguanarwhal",
+      "description": "Iguanarwhal glides through the abyss with a long tusk, four fins and a broad tail fluke.",
+      "animalCombination": "Grand Cayman Blue Iguana + Narwhal",
+      "region": "deep_ocean",
+      "image": "iguanarwhal.png"
+    },
+    {
+      "slug": "jellyphant",
+      "name": "Jellyphant",
+      "description": "A translucent lavender drifter with a softly glowing dome, trailing frills and a long curling trunk. Jellyphant moves with a gentle sway, reaching out curiously as it passes through the water.",
+      "animalCombination": "Jellyfish + Elephant",
+      "region": "deep_ocean",
+      "image": "jellyphant.png"
+    },
+    {
+      "slug": "jerboar",
+      "name": "Jerboar",
+      "description": "Jerboar lifts its tall ears above the sand while its compact hooves pick a quick path between the rocks.",
+      "animalCombination": "Euphrates Jerboa + Eurasian Wild Boar",
+      "region": "desert",
+      "image": "jerboar.png"
+    },
+    {
       "slug": "kiwink",
       "name": "Kiwink",
       "description": "Kiwink picks through leaf litter with its long bill. Its round body and scaled tail slip between roots and low branches.",
       "animalCombination": "Kiwi + Skink",
       "region": "forest",
       "image": "kiwink.png"
+    },
+    {
+      "slug": "koalameleon",
+      "name": "Koalameleon",
+      "description": "A soft-eared climber with a broad dark nose, gentle eyes and a tightly curled tail. Koalameleon's coat shifts through shades of green as its mood changes, helping it settle quietly among the leaves.",
+      "animalCombination": "Koala + Chameleon",
+      "region": "forest",
+      "image": "koalameleon.png"
     },
     {
       "slug": "labraduck",
@@ -83,6 +291,30 @@
       "image": "ladymole.png"
     },
     {
+      "slug": "lobsteray",
+      "name": "Lobsteray",
+      "description": "Lobsteray flaps its broad fins just above the sand and feels between reef rocks with its antennae.",
+      "animalCombination": "American Lobster + Cownose Ray",
+      "region": "coral_reef",
+      "image": "lobsteray.png"
+    },
+    {
+      "slug": "manapill",
+      "name": "Manapill",
+      "description": "Manapill paddles along the lake bed, with a round blue shell and two pale-tipped flippers.",
+      "animalCombination": "Florida Manatee + Common Pillbug",
+      "region": "lake",
+      "image": "manapill.png"
+    },
+    {
+      "slug": "meerkabou",
+      "name": "Meerkabou",
+      "description": "A watchful little sentinel with velvety antlers and a thick, fluffy collar. Meerkabou rises onto its sturdy back feet to announce every visitor, sometimes sounding the alarm for a falling leaf.",
+      "animalCombination": "Meerkat + Caribou",
+      "region": "desert",
+      "image": "meerkabou.png"
+    },
+    {
       "slug": "mooroo",
       "name": "Mooroo",
       "description": "A spotted hopper with tall ears, small ivory horns and a broad pink muzzle. Mooroo holds its short hoofed forelimbs above a roomy pouch, using powerful hind legs and a thick tufted tail to bound between grassy clearings.",
@@ -91,12 +323,132 @@
       "image": "mooroo.png"
     },
     {
+      "slug": "pangolinx",
+      "name": "Pangolinx",
+      "description": "Pangolinx pads along the jungle floor with tufted ears, a plated back and a long armoured tail.",
+      "animalCombination": "White-bellied Pangolin + Canada Lynx",
+      "region": "jungle",
+      "image": "pangolinx.png"
+    },
+    {
+      "slug": "peacobara",
+      "name": "Peacobara",
+      "description": "Shimmering teal, emerald and blue feathers cover Peacobara's rounded body and gentle face. It moves with quiet composure, its splendid tail fan patterned with golden eyespots.",
+      "animalCombination": "Peacock + Capybara",
+      "region": "jungle",
+      "image": "peacobara.png"
+    },
+    {
+      "slug": "pelicanary",
+      "name": "Pelicanary",
+      "description": "A bright yellow flier with a long curved bill, a roomy throat pouch and tiny webbed feet. Pelicanary carries smooth pebbles to its nest, pausing between trips to sing from a favourite perch.",
+      "animalCombination": "Pelican + Canary",
+      "region": "coral_reef",
+      "image": "pelicanary.png"
+    },
+    {
+      "slug": "platypuffin",
+      "name": "Platypuffin",
+      "description": "Warm brown feathers, cream cheek patches and a broad orange bill give Platypuffin a cheerful face. It waddles along quiet shores, paddles through the reeds and takes short, busy flights over the lake. Its wide flat tail leaves little ripples wherever it goes.",
+      "animalCombination": "Platypus + Atlantic Puffin",
+      "region": "lake",
+      "image": "platypuffin.png"
+    },
+    {
+      "slug": "porcupython",
+      "name": "Porcupython",
+      "description": "Soft-tipped quills cover Porcupython's long, flexible back, leaving its belly smooth. It watches the world with a patient gaze before winding into a cosy coil with its delicate underside tucked safely away.",
+      "animalCombination": "Porcupine + Python",
+      "region": "forest",
+      "image": "porcupython.png"
+    },
+    {
+      "slug": "puffalo",
+      "name": "Puffalo",
+      "description": "A sturdy, round grazer with small curved horns, tiny fins and soft, blunt spines. When startled, Puffalo inflates its belly into a great wobbling ball, looking more surprised than anyone around it.",
+      "animalCombination": "Pufferfish + Buffalo",
+      "region": "coral_reef",
+      "image": "puffalo.png"
+    },
+    {
       "slug": "puglet",
       "name": "Puglet",
       "description": "A plump little companion with expressive brown eyes, a wrinkled dark muzzle and a soft pink snout. Puglet shuffles on tiny hooves and curls its tail tightly before settling into the warmest patch of straw.",
       "animalCombination": "Pig + Pug",
       "region": "farmland",
       "image": "puglet.png"
+    },
+    {
+      "slug": "purranha",
+      "name": "Purranha",
+      "description": "Silver-blue scales and dark flowing stripes cover Purranha's rounded body. Bright blue eyes, pink ear fins and a tiny triangular-toothed grin give it a playful look, while fine whiskers frame a shallow cream muzzle that blends smoothly into its gilled sides.",
+      "animalCombination": "Cat + Piranha",
+      "region": "lake",
+      "image": "purranha.png"
+    },
+    {
+      "slug": "quokkaflash",
+      "name": "Quokkaflash",
+      "description": "Quokkaflash bounds through the reeds and takes off on four rainbow-veined wings.",
+      "animalCombination": "Quokka + Common Green Darner Dragonfly",
+      "region": "lake",
+      "image": "quokkaflash.png"
+    },
+    {
+      "slug": "scorpicorn",
+      "name": "Scorpicorn",
+      "description": "Pearly armour, a flowing lavender mane and a golden spiral horn give Scorpicorn a luminous silhouette. Six small legs carry it forward, with rounded pincers at the front and a curling gold-tipped tail above its back.",
+      "animalCombination": "Scorpion + Unicorn",
+      "region": "desert",
+      "image": "scorpicorn.png"
+    },
+    {
+      "slug": "shrimpanzee",
+      "name": "Shrimpanzee",
+      "description": "Shrimpanzee props itself on broad knuckles on dry ground and sweeps its arms and tail fan to swim.",
+      "animalCombination": "Pink Shrimp + Chimpanzee",
+      "region": "deep_ocean",
+      "image": "shrimpanzee.png"
+    },
+    {
+      "slug": "slothtopus",
+      "name": "Slothtopus",
+      "description": "A gentle deepwater dweller with warm brown fur, a cream face and eight curling arms lined with rounded suckers. Slothtopus drifts through quiet currents, slowly gathering its arms before easing into another unhurried swim.",
+      "animalCombination": "Sloth + Octopus",
+      "region": "deep_ocean",
+      "image": "slothtopus.png"
+    },
+    {
+      "slug": "tarantulama",
+      "name": "Tarantulama",
+      "description": "Cream wool surrounds Tarantulama's long neck, upright ears and gentle face. Eight soft, careful legs carry its rounded body over uneven ground, lifting clear of its own tumbling curls.",
+      "animalCombination": "Tarantula + Llama",
+      "region": "jungle",
+      "image": "tarantulama.png"
+    },
+    {
+      "slug": "tricerahops",
+      "name": "Tricerahops",
+      "description": "A sturdy mint-green island dweller with teal spots, three orange horns and a broad cream-edged frill. Tricerahops browses fern beds at an easy walk, then springs into low bounds when something catches its eye.",
+      "animalCombination": "Triceratops + Cane Toad",
+      "region": "lost_world",
+      "image": "tricerahops.png"
+    },
+    {
+      "slug": "vulturkey",
+      "name": "Vulturkey",
+      "description": "Vulturkey fans its tail on the dunes, then spreads broad wings to cross the gullies.",
+      "animalCombination": "Turkey Vulture + Wild Turkey",
+      "region": "desert",
+      "image": "vulturkey.png"
+    },
+    {
+      "slug": "woolrus",
+      "name": "Woolrus",
+      "description": "Thick cream curls surround Woolrus's round body, broad muzzle and two small ivory tusks. Its soft whiskers twitch above sturdy split hooves as it searches for tender shoots.",
+      "animalCombination": "Sheep + Walrus",
+      "region": "farmland",
+      "image": "woolrus.png"
     },
     {
       "slug": "wriggsalotl",
@@ -111,34 +463,114 @@
     {
       "id": "home",
       "name": "Home",
-      "description": "The safe return point for rescued eggs and the place for your garden and creature collection."
+      "description": "The safe return point for eggs you bring home, with space for your garden and creature collection. Start your next egg run here and return with what you find.",
+      "route": "Home",
+      "guardian": null
     },
     {
       "id": "backyard",
       "name": "Sunnyside Backyard",
-      "description": "The first area beyond Home. Labraduck watches over its eggs here."
+      "description": "The first region beyond Home, with grassy ground and a watchful Labraduck guarding its eggs. Its small burrowers, pollinators, and feathered companions introduce the creature collection.",
+      "route": "Main route",
+      "guardian": "Labraduck"
     },
     {
       "id": "farmland",
       "name": "Clover Farm",
-      "description": "Fence lines and open fields are home to creatures such as Mooroo, Puglet, Alpanda, and Donkeyote."
+      "description": "Open fields and fence lines make up Clover Farm. Mooroo watches over the eggs, while creatures such as Donkeyote, Alpanda, Puglet, and Woolrus belong to this region.",
+      "route": "Main route",
+      "guardian": "Mooroo"
     },
     {
       "id": "lake",
       "name": "Ripplewater Lake",
-      "description": "A region of water and shorelines with creatures such as Hamsturtle, Botterfly, and Goosemoose."
+      "description": "Shorelines, reeds, and open water are home to a wide variety of swimming and flying creatures. Hamsturtle guards the lake eggs.",
+      "route": "Main route",
+      "guardian": "Hamsturtle"
     },
     {
       "id": "forest",
       "name": "Acorn Woods",
-      "description": "A wooded region beyond the lake. Kiwink searches the fallen leaves and roots."
+      "description": "A wooded region beyond the lake, filled with trees, leaf litter, and roots. Porcupython guards its eggs, while Kiwink and Badgermunk search the forest floor.",
+      "route": "Main route",
+      "guardian": "Porcupython"
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle Wilds",
+      "description": "Dense green growth marks the last region on the main route before the world branches toward water, mountain, and sky regions. Dandylion guards the jungle eggs.",
+      "route": "Main route",
+      "guardian": "Dandylion"
+    },
+    {
+      "id": "coral_reef",
+      "name": "Rainbow Coral Reef",
+      "description": "The first region on the water route, with underwater ground and reef creatures such as Clownurchin, Giraffish, and Lobsteray. Crabuki guards the eggs here.",
+      "route": "Water route",
+      "guardian": "Crabuki"
+    },
+    {
+      "id": "deep_ocean",
+      "name": "Deepwater Abyss",
+      "description": "Deeper water beyond Rainbow Coral Reef is home to Batacuda, Jellyphant, Slothtopus, and other unusual swimmers. Batacuda guards the abyss eggs.",
+      "route": "Water route",
+      "guardian": "Batacuda"
+    },
+    {
+      "id": "lost_world",
+      "name": "Lost World",
+      "description": "An island beyond Deepwater Abyss, with beaches, fern beds, and tall prehistoric greenery. Tricerahops guards its eggs, and Albatrossaurus glides along the island cliffs.",
+      "route": "Water route",
+      "guardian": "Tricerahops"
+    },
+    {
+      "id": "desert",
+      "name": "Golden Dunes",
+      "description": "A dry region of sand and rock on the mountain route. Armadillope guards the eggs, while long-legged runners, watchful sentinels, and winged creatures cross the dunes.",
+      "route": "Mountain route",
+      "guardian": "Armadillope"
+    },
+    {
+      "id": "volcano",
+      "name": "Ember Mountain",
+      "description": "Rocky slopes rise beyond Golden Dunes. Dragorilla guards the mountain eggs, and the glowing feathers of Bearbecue belong to this region.",
+      "route": "Mountain route",
+      "guardian": "Dragorilla"
+    },
+    {
+      "id": "inferno",
+      "name": "The Burning Depths",
+      "description": "A future region beyond Ember Mountain on the mountain route. Its creatures and final design are still being developed.",
+      "route": "Mountain route",
+      "guardian": null
+    },
+    {
+      "id": "sky_foothills",
+      "name": "Cloudstone Caverns",
+      "description": "The first region on the sky route, reached from Jungle Wilds. Froggle guards its eggs, while Harpyeena moves between cliff paths and open air.",
+      "route": "Sky route",
+      "guardian": "Froggle"
+    },
+    {
+      "id": "sky_mountains",
+      "name": "Cloudtop Cliffs",
+      "description": "A high region beyond Cloudstone Caverns, with snowy ledges and open cliff faces. Chinchillark and Glidigan are part of its developing creature roster.",
+      "route": "Sky route",
+      "guardian": null
+    },
+    {
+      "id": "outer_space",
+      "name": "Moonbeam Expanse",
+      "description": "A future region above Cloudtop Cliffs, planned as the farthest part of the sky route. Its creatures and final design are still being developed.",
+      "route": "Sky route",
+      "guardian": null
     }
   ],
   "guides": [
     {
       "slug": "getting-started",
       "title": "Getting started",
-      "summary": "The basic egg rescue and creature collection loop.",
+      "summary": "The basic egg run and creature collection loop.",
       "sections": [
         {
           "title": "Start from Home",
@@ -166,7 +598,7 @@
     {
       "slug": "eggs-and-hatching",
       "title": "Eggs and hatching",
-      "summary": "From a rescued egg to a creature of your own.",
+      "summary": "From a stolen egg to a creature of your own.",
       "sections": [
         {
           "title": "Egg traits",

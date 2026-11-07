@@ -4,6 +4,7 @@ import {resolve,sep,dirname} from 'node:path';
 import {page,home,archive,article,escapeHtml as e} from './layout.mjs';
 import {playtest} from './playtest-layout.mjs';
 import {wikiPages} from './public-wiki.mjs';
+import {reportBody} from './report-layout.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const out=resolve(root,'dist');
 const origin='https://thatsmyegg.com';
@@ -29,6 +30,7 @@ await mkdir(resolve(out,'updates'),{recursive:true});
 await writeFile(resolve(out,'updates/index.html'),page("Development news | That's my Egg!","Development updates, new creatures, and work in progress on That's my Egg!.",'updates/',archive(posts),'../'));
 await mkdir(resolve(out,'playtest'),{recursive:true});
 await writeFile(resolve(out,'playtest/index.html'),page("Early playtester signup | That's my Egg!","Join Orchard Studios' early playtester list for That's my Egg!. Enter your Roblox username to sign up.",'playtest/',playtest(),'../'));
+await writeFile(resolve(out,'report-bug/index.html'),page("Report a bug | That's my Egg!","Report a problem to Orchard Studios. Add a screenshot and point out what went wrong.",'report-bug/',await reportBody(),'../'));
 for(const post of posts){
   const folder=resolve(out,'updates',post.slug);
   await mkdir(folder,{recursive:true});
