@@ -6,8 +6,7 @@
     "title": "Welcome to That's my Egg!",
     "summary": "The website is live. This is where we'll share daily development updates, creature previews, and changes to the game.",
     "image": "world.jpg",
-    "imageAlt": "Promotional artwork showing a player escaping with an egg while Labraduck gives chase",
-    "imageCaption": "Promotional artwork, rather than a gameplay screenshot.",
+    "imageAlt": "A player escaping with an egg while Labraduck gives chase",
     "sections": [
       {
         "heading": "About the game",
@@ -21,6 +20,61 @@
         "paragraphs": [
           "We'll use this site for daily development posts: what changed, the creatures we're working on, and previews from Studio. Each post will have a date and its own page.",
           "Features, creature designs, and balance may change. We'll distinguish development previews from released changes and label concept art separately from captures of the game."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "2026-11-07-new-creatures-and-world-changes",
+    "date": "2026-11-07",
+    "category": "Development update",
+    "title": "New creatures, bigger guardians, and world changes",
+    "summary": "Our first development update covers work from 6 to 7 November: new creature models, larger guardians, forest textures, and changes around the coast.",
+    "image": "forest-current-20261107.jpg",
+    "imageAlt": "Porcupython on the current Acorn Woods path, captured 7 November 2026",
+    "sections": [
+      {
+        "heading": "New creatures in the development build",
+        "paragraphs": [
+          "Donkeyote, Goosemoose, Kiwink, and Fennthorn now have models, rigs, eggs, and animation sets installed in Studio. This moves them beyond reference artwork, but they still need playtesting and final visual review.",
+          "The follower assignments have also been expanded. Donkeyote gets Endurance, Goosemoose gets Tide rider, and Kiwink gets Fleet foot. These support stamina, swimming, and running respectively, using the same quality rules as the other following pets."
+        ]
+      },
+      {
+        "heading": "Larger guardians",
+        "paragraphs": [
+          "Labraduck, Mooroo, Dandylion, and Dragorilla have refreshed guardian models. Their existing eggs were retained.",
+          "All 14 biome guardians have been made 25% larger. Their size and placement have been checked in the development build, including keeping their feet on the ground.",
+          "That is a size change, rather than a claim that every chase is finished. Movement, carrying eggs past them, and how the encounters feel still need to be checked in play."
+        ]
+      },
+      {
+        "heading": "A texture pass for Acorn Woods",
+        "paragraphs": [
+          "The four tree models used across Acorn Woods have new leaf and bark textures. The leaves have more defined markings, the trunks have visible bark grain, and the finish is less reflective. The new materials are on all 43 forest placements.",
+          "We also closed a small gap at the pine tip. The overall tree shapes and positions were kept."
+        ]
+      },
+      {
+        "heading": "Work around the Jungle coast",
+        "paragraphs": [
+          "Both sides of the Jungle ocean entrance now have sandy connections down to the seabed. Water has been added in the remaining coastal gaps, and the two small planted pockets beside the entrance have been cleared into sand.",
+          "The Forest to Jungle boundary has also moved 20 studs closer to Home. Jungle gains that space and Forest loses the same amount, so the total distance through the two areas stays the same. The existing nests and mountain stay in place."
+        ]
+      },
+      {
+        "heading": "A fossil on the Lost World beach",
+        "paragraphs": [
+          "A partly buried Triceratops skeleton now marks the beach landing from Deepwater Abyss. The horns, frill, ribs, and spine remain exposed above the sand.",
+          "It uses a public-domain Smithsonian scan, prepared for the game with a weathered, matte finish. This is scenery in the development build, rather than a new collectible creature."
+        ]
+      },
+      {
+        "heading": "Creature details and smaller fixes",
+        "paragraphs": [
+          "Creature information now has a separate Animal combination field showing the two animals behind each design. The species descriptions still focus on the creature's own appearance and habits.",
+          "The Shopopotamus doorway chime has also been corrected to follow the shop's current entrance. The sound still needs an in-game listening check.",
+          "This post is a progress report, not a release announcement. These changes have been prepared and checked in Studio, with gameplay testing and polish still ahead."
         ]
       }
     ]

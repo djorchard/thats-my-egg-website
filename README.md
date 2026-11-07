@@ -1,15 +1,17 @@
 # That's my Egg! public website
 
-Official promotional website and development diary. Static HTML and CSS, built
-with Node.js, hosted on GitHub Pages, with thatsmyegg.com managed in Cloudflare.
+Official Orchard Studios website and development diary for That's my Egg!.
+Static pages are built with Node.js and hosted on GitHub Pages, with
+thatsmyegg.com managed in Cloudflare.
 Only this folder belongs in the public website repository. Never copy game
 source, private reviews, credentials, reports, or internal development evidence.
 
 ## Local preview
 
-Run `npm run build`, `npm run check`, then `npm run dev`.
+Run `npm test`, `npm run build`, `npm run check`, then `npm run dev`.
 Open http://127.0.0.1:8898. Stop the owned preview with Ctrl+C.
-No package installation or database is needed.
+No package installation is needed for the static build. Production signups use
+the separate private Cloudflare D1 database through the Worker in worker/.
 
 ## Add a daily update
 
@@ -21,8 +23,23 @@ Distinguish work in progress from released features and verified gameplay.
 
 Run the build and check commands, review the generated post, then commit and
 push to main. GitHub Actions rebuilds and publishes the homepage, archive,
-individual articles, RSS feed, and sitemap. Daily posts are an editorial
-workflow; no unattended posting automation was created.
+individual articles, RSS feed, and sitemap. Daniel authorized the daily Codex
+publisher on 7 November 2026. It runs at 9 pm Australia/Brisbane and follows the
+private project's DAILY_WEBSITE_UPDATES.md, using verified changes and retaining
+evidence outside this public repository.
+
+## Player pages
+
+- /playtest/ asks for a Roblox username, verifies it against Roblox, and saves
+  it privately before showing the confirmation. Duplicate user IDs have one
+  record. It does not send friend requests. Credentials stay in Windows
+  Credential Manager and Cloudflare secrets, never this repository.
+- /report-bug/ reuses the existing report form, screenshot annotations and
+  private report service. No developer inbox or private report list is served.
+- /wiki/ is a curated player guide. content/public-wiki.json allows only public
+  fields; source reviews, scores, asset IDs and internal notes are excluded.
+- public/playtest-config.json and report-bug/config.json contain public
+  service URLs and Turnstile site keys. They contain no secrets.
 
 ## Domain
 
@@ -41,8 +58,11 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 ## Artwork and fonts
 
 Existing project-owned generated artwork is reused. Hero and post cover are
-promotional illustrations, not gameplay screenshots. Asset source paths,
+illustrations. The development gallery uses actual captures taken on
+7 November 2026. Asset source paths,
 hashes, and export details are in `artwork-manifest.json`. Originals remain in
 the private game project. Builder font files are unchanged; see the bundled
-font NOTICE for usage terms. No tracking, cookies, player login, or form data
-collection is added to this site. Bug reporting links to the existing service.
+font NOTICE for usage terms. Signup collects only the Roblox username and
+resolved public account ID for arranging playtests. The private database also
+retains the signup time and waiting status. No password, email or player login
+is requested. Cloudflare Turnstile and rate limiting protect the forms.

@@ -1,5 +1,26 @@
 [
-  {"file":"lake-development.jpg","title":"Ripplewater Lake","alt":"Waterfall and studded cliff walls at the lake in Roblox Studio","caption":"Early Studio development capture","width":1200,"height":832},
-  {"file":"hamsturtle-development.jpg","title":"Hamsturtle at the lake","alt":"Hamsturtle beside the lake and wooden bridge in Roblox Studio","caption":"Early Studio development capture","width":1200,"height":955},
-  {"file":"jungle-development.jpg","title":"Jungle Wilds","alt":"Jungle trees and plants beside a cave with a guardian on the path in Roblox Studio","caption":"Early Studio development capture","width":1200,"height":738}
+  {
+    "file": "backyard-current-20261107.jpg",
+    "title": "Labraduck in the Backyard",
+    "alt": "Current Labraduck guardian on the grass in the Backyard",
+    "caption": "Development screenshot, 7 November 2026",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "lake-current-20261107.jpg",
+    "title": "Hamsturtle at Ripplewater Lake",
+    "alt": "Current Hamsturtle guardian on the path beside Ripplewater Lake",
+    "caption": "Development screenshot, 7 November 2026",
+    "width": 1200,
+    "height": 704
+  },
+  {
+    "file": "forest-current-20261107.jpg",
+    "title": "Porcupython in Acorn Woods",
+    "alt": "Current Porcupython guardian on the forest path",
+    "caption": "Development screenshot, 7 November 2026",
+    "width": 1200,
+    "height": 800
+  }
 ]

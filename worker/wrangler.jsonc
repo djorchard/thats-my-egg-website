@@ -1,0 +1,24 @@
+{
+  "name": "thats-my-egg-playtesters",
+  "account_id": "84847e5704373fb35830333471b96bbd",
+  "main": "index.mjs",
+  "compatibility_date": "2026-11-07",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "thats-my-egg-playtesters",
+      "database_id": "654a64b3-7531-4c64-b8e8-5b6e3ff9ad6f"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "SIGNUP_LIMITER",
+      "namespace_id": "1002",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ]
+}

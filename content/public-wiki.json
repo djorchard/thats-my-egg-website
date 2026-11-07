@@ -1,0 +1,223 @@
+{
+  "updated": "7 November 2026",
+  "notice": "This guide covers a selection of creatures and the current game design. Features, artwork, and availability may change.",
+  "creatures": [
+    {
+      "slug": "alpanda",
+      "name": "Alpanda",
+      "description": "Cloud-soft cream fleece, rounded dark ears and gentle eye markings give Alpanda a calm, thoughtful look. Its long neck rises above a dark shoulder band, while sturdy black legs and a little fluffy tail complete its soft silhouette.",
+      "animalCombination": "Alpaca + Panda",
+      "region": "farmland",
+      "image": "alpanda.png"
+    },
+    {
+      "slug": "botterfly",
+      "name": "Botterfly",
+      "description": "Orange and turquoise patterns flow across Botterfly's soft coat, broad wings and long swimming tail. Its whiskered face stays alert as it paddles through quiet water or opens its wings above the reeds.",
+      "animalCombination": "Butterfly + Otter",
+      "region": "lake",
+      "image": "botterfly.png"
+    },
+    {
+      "slug": "bunblebee",
+      "name": "Bunblebee",
+      "description": "A tiny, round pollinator with soft striped fluff, long listening ears and buzzing wings. Bunblebee drifts between flowers, gathering sweetness before curling up in a sheltered blossom.",
+      "animalCombination": "Bumblebee + Rabbit",
+      "region": "backyard",
+      "image": "bunblebee.png"
+    },
+    {
+      "slug": "cockapoodle",
+      "name": "Cockapoodle",
+      "description": "A lively curly-coated companion with soft hanging ears, a sunny crest and feathered wings. Cockapoodle bounds along on four gentle paws, lifting its feathered tail whenever something catches its attention.",
+      "animalCombination": "Cockatoo + Poodle",
+      "region": "backyard",
+      "image": "cockapoodle.png"
+    },
+    {
+      "slug": "donkeyote",
+      "name": "Donkeyote",
+      "description": "With tall ears, a golden mane and a bushy tail, Donkeyote trots along Clover Farm's fence lines and pauses to listen for the rustle of seed pods.",
+      "animalCombination": "Donkey + Coyote",
+      "region": "farmland",
+      "image": "donkeyote.png"
+    },
+    {
+      "slug": "goosemoose",
+      "name": "Goosemoose",
+      "description": "A long-necked lake bird with broad wings and a pair of branching antlers. Goosemoose paddles between reed beds and lifts off across open water.",
+      "animalCombination": "Canada Goose + Moose",
+      "region": "lake",
+      "image": "goosemoose.png"
+    },
+    {
+      "slug": "hamsturtle",
+      "name": "Hamsturtle",
+      "description": "A round little forager with full cheeks, tiny paws and a sturdy shell. Hamsturtle carries its favourite hiding place everywhere, stopping often to tuck away another mouthful of food.",
+      "animalCombination": "Hamster + Turtle",
+      "region": "lake",
+      "image": "hamsturtle.png"
+    },
+    {
+      "slug": "kiwink",
+      "name": "Kiwink",
+      "description": "Kiwink picks through leaf litter with its long bill. Its round body and scaled tail slip between roots and low branches.",
+      "animalCombination": "Kiwi + Skink",
+      "region": "forest",
+      "image": "kiwink.png"
+    },
+    {
+      "slug": "labraduck",
+      "name": "Labraduck",
+      "description": "A golden-feathered guardian with soft hanging ears, bright eyes and a broad amber bill. Labraduck counts every egg before settling beside the water, keeping a watchful eye on its home.",
+      "animalCombination": "Labrador + Duck",
+      "region": "backyard",
+      "image": "labraduck.png"
+    },
+    {
+      "slug": "ladymole",
+      "name": "Ladymole",
+      "description": "Ladymole noses through the woodland leaf litter with wide pink paws, a scarlet spotted shell and two curious antennae.",
+      "animalCombination": "Eastern Mole + Seven-spotted Lady Beetle",
+      "region": "backyard",
+      "image": "ladymole.png"
+    },
+    {
+      "slug": "mooroo",
+      "name": "Mooroo",
+      "description": "A spotted hopper with tall ears, small ivory horns and a broad pink muzzle. Mooroo holds its short hoofed forelimbs above a roomy pouch, using powerful hind legs and a thick tufted tail to bound between grassy clearings.",
+      "animalCombination": "Cow + Kangaroo",
+      "region": "farmland",
+      "image": "mooroo.png"
+    },
+    {
+      "slug": "puglet",
+      "name": "Puglet",
+      "description": "A plump little companion with expressive brown eyes, a wrinkled dark muzzle and a soft pink snout. Puglet shuffles on tiny hooves and curls its tail tightly before settling into the warmest patch of straw.",
+      "animalCombination": "Pig + Pug",
+      "region": "farmland",
+      "image": "puglet.png"
+    },
+    {
+      "slug": "wriggsalotl",
+      "name": "Wriggsalotl",
+      "description": "A cheerful little burrower with a long, flexible body and fluttering frilled gills. Wriggsalotl slips through damp soil and wriggles with delight whenever it finds a fresh puddle.",
+      "animalCombination": "Worm + Axolotl",
+      "region": "backyard",
+      "image": "wriggsalotl.png"
+    }
+  ],
+  "regions": [
+    {
+      "id": "home",
+      "name": "Home",
+      "description": "The safe return point for rescued eggs and the place for your garden and creature collection."
+    },
+    {
+      "id": "backyard",
+      "name": "Sunnyside Backyard",
+      "description": "The first area beyond Home. Labraduck watches over its eggs here."
+    },
+    {
+      "id": "farmland",
+      "name": "Clover Farm",
+      "description": "Fence lines and open fields are home to creatures such as Mooroo, Puglet, Alpanda, and Donkeyote."
+    },
+    {
+      "id": "lake",
+      "name": "Ripplewater Lake",
+      "description": "A region of water and shorelines with creatures such as Hamsturtle, Botterfly, and Goosemoose."
+    },
+    {
+      "id": "forest",
+      "name": "Acorn Woods",
+      "description": "A wooded region beyond the lake. Kiwink searches the fallen leaves and roots."
+    }
+  ],
+  "guides": [
+    {
+      "slug": "getting-started",
+      "title": "Getting started",
+      "summary": "The basic egg rescue and creature collection loop.",
+      "sections": [
+        {
+          "title": "Start from Home",
+          "paragraphs": [
+            "Home is the safe return point for an egg run. Head into the surrounding regions to find wild eggs and the guardians that protect them.",
+            "The game is still under development. Access may be limited while Orchard Studios builds and tests it. No release date has been announced."
+          ]
+        },
+        {
+          "title": "Take an egg and get back",
+          "paragraphs": [
+            "Use the interaction shown on a wild egg and hold it until the pickup completes. Releasing early cancels the pickup. You carry one wild egg at a time.",
+            "Taking an egg starts a guardian chase. Return to Home with it to secure it in your inventory. Heavier eggs can make the return journey slower, so leave yourself room to get back."
+          ]
+        },
+        {
+          "title": "Build your collection",
+          "paragraphs": [
+            "Once an egg is yours, it can be placed in your own purchased garden area to incubate. Use Hatch when it is ready to discover the creature inside.",
+            "Pets and eggs have separate management screens. Follow the current prompts in game for controls and available actions."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eggs-and-hatching",
+      "title": "Eggs and hatching",
+      "summary": "From a rescued egg to a creature of your own.",
+      "sections": [
+        {
+          "title": "Egg traits",
+          "paragraphs": [
+            "Eggs have a species, quality, size, and weight. Quality and species are separate traits. An egg's weight affects how difficult it is to carry.",
+            "Standard, Fine, Superior, Epic, and Legendary are quality levels. They are separate from the creature's conservation status and the region where it lives."
+          ]
+        },
+        {
+          "title": "Incubation in the garden",
+          "paragraphs": [
+            "Place an owned inventory egg in your own purchased garden space. It stays there while it incubates and becomes ready to hatch. Becoming ready does not hatch it automatically.",
+            "The egg's countdown and available actions show its current state. Incubation requirements can change as development and balancing continue."
+          ]
+        },
+        {
+          "title": "Hatching and discovery",
+          "paragraphs": [
+            "Use the egg's Hatch action when it is ready. A successful hatch adds a creature and shows its Birth Certificate with the individual pet's details.",
+            "If there is no suitable Garden space, the game may offer a choice or keep the new creature in Stored pets. Read the confirmation before selecting which pet to keep in the Garden."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pets-and-gardens",
+      "title": "Pets and gardens",
+      "summary": "Manage your creatures at Home and choose a companion.",
+      "sections": [
+        {
+          "title": "Garden, Stored, and Collection",
+          "paragraphs": [
+            "Garden pets live on your purchased land. Stored pets remain in your collection without taking a Garden place. The species Collection records what you have discovered.",
+            "Garden pets can wander, nap, and be petted. An owned pet keeps its own identity and individual details when you move it between available assignments."
+          ]
+        },
+        {
+          "title": "Choose a companion",
+          "paragraphs": [
+            "Use Follow on an eligible owned pet to take it with you. Following and riding share one active companion slot, so choosing another companion replaces the previous selection.",
+            "Some species can be ridden. Other following species have a particular buff. The current pet information explains which benefit applies."
+          ]
+        },
+        {
+          "title": "Feeding and petting",
+          "paragraphs": [
+            "Pets have different diets. Offer Fish to a pet that eats meat or Banana to one that eats plants. A pet that eats both can take either.",
+            "Use the pet's available Feed or Praise action. Feeding and petting can give temporary benefits; the in-game information shows the current effect."
+          ]
+        }
+      ]
+    }
+  ]
+}

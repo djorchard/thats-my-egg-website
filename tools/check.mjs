@@ -4,12 +4,12 @@ import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const dist=resolve(root,'dist');
 let pages=0,links=0;
-async function walk(folder){for(const e of await readdir(folder,{withFileTypes:true})){
-  const path=resolve(folder,e.name);if(e.isDirectory()){await walk(path);continue;}
-  if(!['.html','.css','.xml','.txt','.json','.mjs','.md','.yml'].includes(extname(path)))continue;
+async function walk(folder,generated=false){for(const e of await readdir(folder,{withFileTypes:true})){
+  const path=resolve(folder,e.name);if(e.isDirectory()){await walk(path,generated);continue;}
+  if(!['.html','.css','.xml','.txt','.json','.js','.mjs','.md','.yml'].includes(extname(path)))continue;
   const text=await readFile(path,'utf8');
   if(/[\u2013\u2014]/u.test(text))throw Error(`Prohibited dash in ${path}`);
-  if(extname(path)==='.html'){
+  if(extname(path)==='.html'&&generated){
     pages++;
     for(const [,raw] of text.matchAll(/(?:href|src)="([^"]+)"/g)){
       if(/^(?:https?:|mailto:|data:|#)/.test(raw))continue;
@@ -20,7 +20,7 @@ async function walk(folder){for(const e of await readdir(folder,{withFileTypes:t
     if(!text.includes('<h1>')&&!text.includes('<h1 '))throw Error(`Missing h1: ${path}`);
   }
 }}
-await walk(dist);
+await walk(dist,true);
 await walk(resolve(root,'content'));
 await walk(resolve(root,'tools'));
 await walk(resolve(root,'public'));

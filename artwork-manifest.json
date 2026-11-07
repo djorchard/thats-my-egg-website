@@ -112,6 +112,42 @@
       "source_sha256": "fd09c9a781ea26694526399cc3206083c28b3f8c865bd9b1a261885fc4d8c3ff",
       "sha256": "f907b9309705e56066ac6d3cf5939bd51c02de28ab1fe92d40b808cb61260f62",
       "details": "Retained Studio Edit capture, early development. JPEG export with Lanczos resizing. No gameplay claim."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/backyard-front-current.jpg",
+      "output": "public/assets/backyard-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 237067,
+      "source_sha256": "cce87d47554be529756da359023a5a7892e5d83fde720b725fed80b6972e0bb4",
+      "sha256": "7bf372e2c015505835029f4fa9c74956fcd46d152ede754be24ac21092372f23",
+      "details": "Fresh actual Studio capture, 7 November 2026. Downsampled JPEG; original retained. No crop."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/lake-path-current.jpg",
+      "output": "public/assets/lake-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        704
+      ],
+      "bytes": 200616,
+      "source_sha256": "5407a27836318fb3e18634df1cec70b406489f1e4fa3c30cbb50a195376f7595",
+      "sha256": "52d648b0a90b3dad430b075172855c25c9612a042f652645c24e68c9d6245430",
+      "details": "Fresh actual Studio capture, 7 November 2026. Downsampled JPEG; original retained. Cropped top and left edges to omit a pink authoring marker."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/forest-path-current.jpg",
+      "output": "public/assets/forest-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 279659,
+      "source_sha256": "cd3e5901993baee1047b681266354672a7124f6cf67d8eb0e9d373c78d965c22",
+      "sha256": "b7226b630e8594018d4e3c366504e376954de6c0146db05476c93ef4c36e12ec",
+      "details": "Fresh actual Studio capture, 7 November 2026. Downsampled JPEG; original retained. No crop."
     }
   ]
 }
