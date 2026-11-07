@@ -64,12 +64,12 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 
 ## Artwork and fonts
 
-Existing project-owned generated artwork is reused. Hero and post cover are
-illustrations. The development gallery uses actual captures taken on
-7 November 2026. Asset source paths,
+Existing project-owned generated artwork is reused for the hero and creature
+art. Current post photos and the development gallery use actual Studio captures
+taken on 7 November 2026. Asset source paths,
 hashes, and export details are in `artwork-manifest.json`. Originals remain in
 the private game project. Builder font files are unchanged; see the bundled
-font NOTICE for usage terms. Signup collects only the Roblox username and
-resolved public account ID for arranging playtests. The private database also
+font NOTICE for usage terms. Signup collects the submitted Roblox username
+for arranging playtests. The private database also
 retains the signup time and waiting status. No password, email or player login
 is requested. Cloudflare Turnstile and rate limiting protect the forms.

@@ -148,6 +148,42 @@
       "source_sha256": "cd3e5901993baee1047b681266354672a7124f6cf67d8eb0e9d373c78d965c22",
       "sha256": "b7226b630e8594018d4e3c366504e376954de6c0146db05476c93ef4c36e12ec",
       "details": "Fresh actual Studio capture, 7 November 2026. Downsampled JPEG; original retained. No crop."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/donkeyote-current-photo.jpg",
+      "output": "public/assets/donkeyote-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 249289,
+      "source_sha256": "5331b01b79e0732bc5131782f23ed5d7cdf8670fd2f8dd148e98d11651afb660",
+      "sha256": "b0ea734440ff9b85337001d72a56639b9abd5872500496adf98d3a257536dbdf",
+      "details": "Current installed creature temporarily staged in Studio Edit, photographed, and removed. The original template was unchanged. Proportional resize only, JPEG quality91. No scene content altered."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/goosemoose-current-photo.jpg",
+      "output": "public/assets/goosemoose-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 252295,
+      "source_sha256": "c6e05980312fe81bbafa9c95cae1c7d15169995491daeb95cb034526b3acba1e",
+      "sha256": "e644da89515bd40784c559d5a9d783882add87f8e4082b35333da52737b3738f",
+      "details": "Current installed creature temporarily staged in Studio Edit, photographed, and removed. The original template was unchanged. Proportional resize only, JPEG quality91. No scene content altered."
+    },
+    {
+      "source": "output/public-site-refresh-20261107/kiwink-current-photo.jpg",
+      "output": "public/assets/kiwink-current-20261107.jpg",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 249228,
+      "source_sha256": "c060c811578fb8d12f514ff42de54e453f1e1e874a9ab1767f14c60b3f02d254",
+      "sha256": "eaf8c674af77ffd90cc50210933e5ae86ad28dece81b1f7ffe23c991dd759e7d",
+      "details": "Current installed creature temporarily staged in Studio Edit, photographed, and removed. The original template was unchanged. Proportional resize only, JPEG quality91. No scene content altered."
     }
   ]
 }
