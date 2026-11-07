@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-07",
+  "newArtworkGenerated": false,
+  "assets": [
+    {
+      "source": "bug-report-site/public/art/game-logo.png",
+      "output": "public/assets/logo.png",
+      "bytes": 152280,
+      "sha256": "076b91f30f1790b379ecc54e2407152e262d684ccf512374017eb6e25fda385e",
+      "details": "Existing optimized canonical logo v5, unchanged"
+    },
+    {
+      "source": "assets/branding/jira-background-v2-20261107/thats-my-egg-jira-background.jpg",
+      "output": "public/assets/world.jpg",
+      "bytes": 446009,
+      "sha256": "1f4152764cf7fdfd7354fab599245ca8287d19f56054acbf3525f39333365778",
+      "details": "Existing project promotional illustration, unchanged"
+    },
+    {
+      "source": "creatures/labraduck/labraduck-icon.png",
+      "output": "public/assets/labraduck.png",
+      "bytes": 225661,
+      "sha256": "f4bc19b0c7913a6ef641865dd06a80e8124ee29ec5382688197f246af6778bd1",
+      "details": "Existing creature concept icon, unchanged"
+    },
+    {
+      "source": "creatures/botterfly/botterfly-icon.png",
+      "output": "public/assets/botterfly.png",
+      "bytes": 310384,
+      "sha256": "855860167ea4ac17512ca87553179ab4905e0ccdf9a2eb2128b91d28be184c4d",
+      "details": "Existing creature concept icon, unchanged"
+    },
+    {
+      "source": "assets/branding/jira-sidebar-icon-20261107/thats-my-egg-jira-icon-64.png",
+      "output": "public/assets/favicon.png",
+      "bytes": 3883,
+      "sha256": "a22a805292bc1e4c2d3b91e5692ee37f285136002c0b2f1fb385d58bd07f9b4b",
+      "details": "Existing canonical outlined egg icon, unchanged"
+    },
+    {
+      "source": "bug-report-site/public/fonts/BuilderSans-Bold.otf",
+      "output": "public/assets/fonts/BuilderSans-Bold.otf",
+      "bytes": 77840,
+      "sha256": "30a9f5a26fd341c2b4a8ee1418b3061445c7c6ce8b4b2565b04480c1b1328af4",
+      "details": "Existing self-hosted font or license notice, unchanged"
+    },
+    {
+      "source": "bug-report-site/public/fonts/BuilderSans-ExtraBold.otf",
+      "output": "public/assets/fonts/BuilderSans-ExtraBold.otf",
+      "bytes": 77504,
+      "sha256": "0837070a1713fc7647e74ec51b80ab9d4bce6af5448117c5711bc8a139f3adf0",
+      "details": "Existing self-hosted font or license notice, unchanged"
+    },
+    {
+      "source": "bug-report-site/public/fonts/BuilderSans-Medium.otf",
+      "output": "public/assets/fonts/BuilderSans-Medium.otf",
+      "bytes": 77856,
+      "sha256": "9f2d5253ab8ecefddfdebaef4c578eb3d1a2985589615604982d84fcabf6221d",
+      "details": "Existing self-hosted font or license notice, unchanged"
+    },
+    {
+      "source": "bug-report-site/public/fonts/NOTICE.txt",
+      "output": "public/assets/fonts/NOTICE.txt",
+      "bytes": 336,
+      "sha256": "55cbb749253f027ad40f7e9f222c522bae2e2fded8cf79d20cb714e5b70337ab",
+      "details": "Existing self-hosted font or license notice, unchanged"
+    }
+  ]
+}

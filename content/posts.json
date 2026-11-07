@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "2026-11-07-welcome-to-thats-my-egg",
+    "date": "2026-11-07",
+    "category": "Development diary",
+    "title": "A little egg. A big adventure. A new home for updates.",
+    "summary": "Welcome to the official home of That's my Egg! Follow along as our Roblox creature adventure takes shape.",
+    "image": "world.jpg",
+    "imageAlt": "Promotional illustration of a player carrying an egg, with Labraduck and other creatures in a green landscape",
+    "sections": [
+      {"heading": "Welcome to That's my Egg!", "paragraphs": ["Every adventure starts with an egg. Ours also involves a very determined guardian, a dash back to safety, and some wonderfully unusual creatures.", "That's my Egg! is a Roblox game in active development. We are building a world around finding eggs, escaping their guardians, and growing a creature collection of your own."]},
+      {"heading": "Follow the game as it grows", "paragraphs": ["This development diary is where we will share daily progress, creature previews, changes to the world, and the small details that bring it to life. We will keep the posts dated so you can follow the journey.", "Expect work in progress. Creature designs, animations, features, and balance can change as development continues. Promotional illustrations show the spirit of the game and are not gameplay screenshots."]},
+      {"heading": "Still under development", "paragraphs": ["The game is not a finished release, and we have not announced a launch date. Access on Roblox may be limited while we develop and test it.", "Thanks for stopping by at the beginning. There are plenty more eggs to discover."]}
+    ]
+  }
+]
