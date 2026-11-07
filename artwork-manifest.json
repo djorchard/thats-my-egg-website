@@ -64,6 +64,54 @@
       "bytes": 336,
       "sha256": "55cbb749253f027ad40f7e9f222c522bae2e2fded8cf79d20cb714e5b70337ab",
       "details": "Existing self-hosted font or license notice, unchanged"
+    },
+    {
+      "source": "assets/branding/thats-my-egg-logo-v5.png",
+      "output": "public/assets/logo-hero.png",
+      "dimensions": [
+        1020,
+        496
+      ],
+      "bytes": 495920,
+      "source_sha256": "4966c84f581bde57138fb0ce5ff8a2b49409021690976d3ee737661db9fee071",
+      "sha256": "37498644b66f65dd6fdc3a36a2de2b8336303a802ca3b09ca5d46fc13fcebea0",
+      "details": "Existing artwork resized with Lanczos, no new artwork."
+    },
+    {
+      "source": "output/lake/waterfall.png",
+      "output": "public/assets/lake-development.jpg",
+      "dimensions": [
+        1200,
+        832
+      ],
+      "bytes": 209702,
+      "source_sha256": "012a361df3ef28cc5990ee19eaf72868a5c04d6e8f26251fd0b0f7f14b0cd8b9",
+      "sha256": "5c5bbe09ada89e5d70eeb6e497111e717cec8f6494e638b8be97b88030600335",
+      "details": "Retained Studio Edit capture, early development. JPEG export with Lanczos resizing. No gameplay claim."
+    },
+    {
+      "source": "output/lake-hamsturtle-guardian/front.png",
+      "output": "public/assets/hamsturtle-development.jpg",
+      "dimensions": [
+        1200,
+        955
+      ],
+      "bytes": 238410,
+      "source_sha256": "1da8c431f8d07e062ef21ac94dd1a204e098d10de0aaf1a9344152544ff270e8",
+      "sha256": "c3e9f79dafebab8effc87184d1bd0202142d1eda823f99011ea17f3e034b0478",
+      "details": "Retained Studio Edit capture, early development. JPEG export with Lanczos resizing. No gameplay claim. Rightmost 200 pixels cropped to exclude distant placeholder models."
+    },
+    {
+      "source": "output/jungle-scenery/after/entrance.png",
+      "output": "public/assets/jungle-development.jpg",
+      "dimensions": [
+        1200,
+        738
+      ],
+      "bytes": 170718,
+      "source_sha256": "fd09c9a781ea26694526399cc3206083c28b3f8c865bd9b1a261885fc4d8c3ff",
+      "sha256": "f907b9309705e56066ac6d3cf5939bd51c02de28ab1fe92d40b808cb61260f62",
+      "details": "Retained Studio Edit capture, early development. JPEG export with Lanczos resizing. No gameplay claim."
     }
   ]
 }

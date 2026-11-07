@@ -22,4 +22,6 @@ async function walk(folder){for(const e of await readdir(folder,{withFileTypes:t
 }}
 await walk(dist);
 await walk(resolve(root,'content'));
+await walk(resolve(root,'tools'));
+await walk(resolve(root,'public'));
 console.log(`Checked ${pages} HTML pages, ${links} local references, and final text for prohibited dashes.`);

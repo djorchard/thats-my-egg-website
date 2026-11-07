@@ -2,15 +2,27 @@
   {
     "slug": "2026-11-07-welcome-to-thats-my-egg",
     "date": "2026-11-07",
-    "category": "Development diary",
-    "title": "A little egg. A big adventure. A new home for updates.",
-    "summary": "Welcome to the official home of That's my Egg! Follow along as our Roblox creature adventure takes shape.",
+    "category": "Website news",
+    "title": "Welcome to That's my Egg!",
+    "summary": "The website is live. This is where we'll share daily development updates, creature previews, and changes to the game.",
     "image": "world.jpg",
-    "imageAlt": "Promotional illustration of a player carrying an egg, with Labraduck and other creatures in a green landscape",
+    "imageAlt": "Promotional artwork showing a player escaping with an egg while Labraduck gives chase",
+    "imageCaption": "Promotional artwork, rather than a gameplay screenshot.",
     "sections": [
-      {"heading": "Welcome to That's my Egg!", "paragraphs": ["Every adventure starts with an egg. Ours also involves a very determined guardian, a dash back to safety, and some wonderfully unusual creatures.", "That's my Egg! is a Roblox game in active development. We are building a world around finding eggs, escaping their guardians, and growing a creature collection of your own."]},
-      {"heading": "Follow the game as it grows", "paragraphs": ["This development diary is where we will share daily progress, creature previews, changes to the world, and the small details that bring it to life. We will keep the posts dated so you can follow the journey.", "Expect work in progress. Creature designs, animations, features, and balance can change as development continues. Promotional illustrations show the spirit of the game and are not gameplay screenshots."]},
-      {"heading": "Still under development", "paragraphs": ["The game is not a finished release, and we have not announced a launch date. Access on Roblox may be limited while we develop and test it.", "Thanks for stopping by at the beginning. There are plenty more eggs to discover."]}
+      {
+        "heading": "About the game",
+        "paragraphs": [
+          "That's my Egg! is a Roblox game about taking eggs from guardians, escaping back to Home, and collecting the creatures that hatch from them.",
+          "The game is under development. We haven't announced a release date, and access on Roblox may be limited while we build and test it."
+        ]
+      },
+      {
+        "heading": "Development updates",
+        "paragraphs": [
+          "We'll use this site for daily development posts: what changed, the creatures we're working on, and previews from Studio. Each post will have a date and its own page.",
+          "Features, creature designs, and balance may change. We'll distinguish development previews from released changes and label concept art separately from captures of the game."
+        ]
+      }
     ]
   }
 ]
