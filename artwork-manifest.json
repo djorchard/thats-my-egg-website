@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "newArtworkGenerated": false,
   "assets": [
     {
@@ -194,7 +194,8 @@
         960,
         320
       ],
-      "details": "Proportional downscale and lossless PNG export. Supplied light background, lettering and emblem retained. No artwork generated or redrawn."
+      "details": "Proportional downscale and lossless PNG export. Supplied light background, lettering and emblem retained. No artwork generated or redrawn.",
+      "brandingStatus": "Earlier astronaut logo, retained for historical links; superseded by the official text wordmark."
     },
     {
       "source": "assets/branding/orchard-studios-official-20261108/orchard-studios-inverse-original.png",
@@ -205,7 +206,30 @@
         960,
         321
       ],
-      "details": "ImageGen inverse approved by Daniel for dark backgrounds, proportionally downscaled and exported as lossless PNG."
+      "details": "ImageGen inverse approved by Daniel for dark backgrounds, proportionally downscaled and exported as lossless PNG.",
+      "brandingStatus": "Earlier astronaut logo, retained for historical links; superseded by the official text wordmark."
+    },
+    {
+      "source": "assets/branding/orchard-studios-wordmark-20261108/orchard-studios-wordmark-rounded-inset.png",
+      "output": "public/assets/orchard-studios-wordmark.png",
+      "bytes": 27677,
+      "sha256": "b080f61029374fc6536ac744d9c5bc97d0bf295e1eef563d71131bed6c230706",
+      "dimensions": [
+        960,
+        201
+      ],
+      "details": "Official Orchard Studios wordmark selected by Daniel on 8 November 2026. White rounded ORCHARD with larger STUDIOS spaced from the first R to the second R. Real transparent alpha; shared website footer uses this exact PNG."
+    },
+    {
+      "source": "assets/branding/orchard-studios-wordmark-20261108/orchard-studios-wordmark-rounded-inset-dark-preview.png",
+      "output": "public/assets/orchard-studios-wordmark-preview.png",
+      "bytes": 37766,
+      "sha256": "e1c763539c455723fe0b482b2bf41ffe0385f80bdfd7381c7941093b7c2d9fb8",
+      "dimensions": [
+        960,
+        201
+      ],
+      "details": "Official Orchard Studios wordmark selected by Daniel on 8 November 2026. White rounded ORCHARD with larger STUDIOS spaced from the first R to the second R. Dark background composite for README visibility only."
     }
   ]
 }
