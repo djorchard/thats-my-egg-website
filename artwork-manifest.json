@@ -184,6 +184,17 @@
       "source_sha256": "c060c811578fb8d12f514ff42de54e453f1e1e874a9ab1767f14c60b3f02d254",
       "sha256": "eaf8c674af77ffd90cc50210933e5ae86ad28dece81b1f7ffe23c991dd759e7d",
       "details": "Current installed creature temporarily staged in Studio Edit, photographed, and removed. The original template was unchanged. Proportional resize only, JPEG quality91. No scene content altered."
+    },
+    {
+      "source": "assets/branding/orchard-studios-official-20261108/orchard-studios-original.jpg",
+      "output": "public/assets/orchard-studios-logo.png",
+      "bytes": 114900,
+      "sha256": "cc4eb9595a19b15885b7152c8eae49143d8747752dcc5e4364408e2902d13146",
+      "dimensions": [
+        960,
+        320
+      ],
+      "details": "Proportional downscale and lossless PNG export. Supplied light background, lettering and emblem retained. No artwork generated or redrawn."
     }
   ]
 }

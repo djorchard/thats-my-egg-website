@@ -1,5 +1,7 @@
 # That's my Egg! public website
 
+<img src="public/assets/orchard-studios-logo.png" width="320" alt="Orchard Studios">
+
 Official Orchard Studios website and development diary for That's my Egg!.
 Static pages are built with Node.js and hosted on GitHub Pages, with
 thatsmyegg.com managed in Cloudflare.

@@ -20,3 +20,6 @@
 @media(max-width:1000px){.playtest-page{gap:30px;grid-template-columns:minmax(0,1fr) minmax(310px,420px)}.playtest-intro h1{font-size:35px}.playtest-panel{padding:25px}.playtest-intro>p:not(.label){font-size:16px}}
 @media(max-width:650px){.site-header nav{gap:16px}.site-header nav a:last-child{font-size:11px}.playtest-page{padding:32px 0 42px;grid-template-columns:1fr;gap:26px}.playtest-intro h1{font-size:32px;margin-bottom:19px}.playtest-intro>p:not(.label){font-size:16px;margin-bottom:16px}.playtest-intro>p.muted{font-size:12px}.playtest-panel{grid-row:auto;grid-column:auto;padding:23px 20px}.playtest-panel h2{font-size:24px;margin-bottom:22px}.playtest-panel .button{font-size:14px;padding:12px 16px}.signup-success h2{font-size:28px}.playtest-note h2{font-size:22px}}
 @media(max-width:650px){.site-header nav{gap:10px}.site-header nav a{font-size:11px}.site-header nav a.nav-wiki{display:block}.site-header nav a.nav-about,.site-header nav a.nav-report{display:none}}
+.site-footer .footer-brand{flex-direction:column;align-items:flex-start;gap:12px;min-width:0}.site-footer .footer-brand img{display:block;width:300px;max-width:100%;height:auto}.site-footer .footer-brand p{margin:0}
+@media(max-width:1000px){.site-footer .footer-inner{gap:28px}.site-footer .footer-brand img{width:260px}}
+@media(max-width:650px){.site-footer .footer-brand img{width:280px}}
