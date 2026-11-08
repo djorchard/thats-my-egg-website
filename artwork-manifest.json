@@ -195,6 +195,17 @@
         320
       ],
       "details": "Proportional downscale and lossless PNG export. Supplied light background, lettering and emblem retained. No artwork generated or redrawn."
+    },
+    {
+      "source": "assets/branding/orchard-studios-official-20261108/orchard-studios-inverse-original.png",
+      "output": "public/assets/orchard-studios-logo-inverse.png",
+      "bytes": 273324,
+      "sha256": "be225a62f8e7bb40cd4ee7a26c7f490ed0069707ec272aebdc3e7395cc23186a",
+      "dimensions": [
+        960,
+        321
+      ],
+      "details": "ImageGen inverse approved by Daniel for dark backgrounds, proportionally downscaled and exported as lossless PNG."
     }
   ]
 }
