@@ -99,5 +99,43 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "2026-11-12-mailboxes-and-golden-dunes",
+    "date": "2026-11-12",
+    "category": "Development update",
+    "title": "You've got mail. Some of it hatches.",
+    "summary": "Leave eggs for friends at Home, spot waiting deliveries at a glance, and meet two new faces in the Golden Dunes development build.",
+    "image": "mailbox-waiting-20261112.png",
+    "imageAlt": "An egg-shaped teal mailbox with a small envelope and waiting-mail count above it",
+    "imageCaption": "The Home mailbox and its waiting-mail badge. Studio preview with sample counts.",
+    "sections": [
+      {
+        "heading": "A parcel that might hatch",
+        "paragraphs": [
+          "In the development build, visit another player's Home and use the mail slot to leave an eligible item or an egg from your bag. Matching eggs can go together, so you don't have to make a second trip for the second egg. This may be the first respectable thing we've done with an egg.",
+          "When something arrives, only the owner sees the envelope and count above their mailbox. Open it to collect the delivery into Inventory. If you were only stopping by to admire the place, the red heart lets you leave a weekly like. Tap it again if you've had second thoughts."
+        ]
+      },
+      {
+        "heading": "A bright beak in Golden Dunes",
+        "paragraphs": [
+          "Camoucan and Swobra now have eggs in the Golden Dunes development build. Camoucan has long legs, dark wings and a bright orange beak that's doing a poor job of blending in."
+        ],
+        "image": "camoucan-studio-20261112.jpg",
+        "imageAlt": "Camoucan with long tan legs, dark wings and a large orange beak",
+        "imageCaption": "Camoucan's current game model, photographed in Studio."
+      },
+      {
+        "heading": "And a very different silhouette",
+        "paragraphs": [
+          "Swobra has pale feathers, a long tail and a gold marking on its flared neck. Those are two more creatures to look out for when you're deciding which egg is worth the run home.",
+          "We tested two players sending and collecting a pair of eggs in Studio. We also checked the new Golden Dunes eggs and hatch models in Studio Edit; those encounters still need gameplay testing. Everything here is a development preview."
+        ],
+        "image": "swobra-studio-20261112.jpg",
+        "imageAlt": "Swobra with pale feathers, a long tail and a gold marking on its flared neck",
+        "imageCaption": "Swobra's current game model, photographed in Studio."
+      }
+    ]
   }
 ]
