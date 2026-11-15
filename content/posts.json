@@ -137,5 +137,42 @@
         "imageCaption": "Swobra's current game model, photographed in Studio."
       }
     ]
+  },
+  {
+    "slug": "2026-11-16-meteor-eggs-and-backyard-cliffs",
+    "date": "2026-11-16",
+    "category": "Development update",
+    "title": "The sky went dark. Then came the egg.",
+    "summary": "A rare eclipse brings a meteor to Sunnyside Backyard. Crack it before dusk for a chance to bring home an egg, and take a look at the new cliffs on the way.",
+    "image": "eclipse-preview-20261116.png",
+    "imageAlt": "A dark eclipse disc with a pale halo above blue clouds",
+    "imageCaption": "The eclipse effect in a Studio preview.",
+    "sections": [
+      {
+        "heading": "Something fell near the gate",
+        "paragraphs": [
+          "In the development build, a rare eclipse sends a meteor down just beyond the Home gate in Sunnyside Backyard. Once it lands, you can crack it with a club or an empty hand. Hits from different players count toward breaking the same rock.",
+          "The meteor drops one or two eggs. Pick one up before dusk and bring it to your garden to hatch a Grim Creeper. As a follower, it reduces fall damage. A considerate feature for something that arrived by falling out of the sky."
+        ],
+        "image": "meteor-egg-grim-creeper-20261116.png",
+        "imageAlt": "A dark meteor rock, a purple egg with glowing blue veins, and the blocky purple Grim Creeper",
+        "imageCaption": "The meteor, egg and Grim Creeper beside one another in Studio."
+      },
+      {
+        "heading": "A new look on the way to Clover Farm",
+        "paragraphs": [
+          "Three tiers of grassy cliffs now run from Home through Sunnyside Backyard and Clover Farm. The Backyard fences match the cream pickets at the Home gate, down to the little eggs on the posts."
+        ],
+        "image": "backyard-pickets-and-cliffs-20261116.jpg",
+        "imageAlt": "Cream picket fencing with egg-shaped finials in front of three grassy cliff tiers",
+        "imageCaption": "The Backyard fences and cliffs in the development build."
+      },
+      {
+        "heading": "What we've checked",
+        "paragraphs": [
+          "We've checked the meteor assets, hatch model and new scenery in Studio. The full eclipse encounter and the updated route still need gameplay testing."
+        ]
+      }
+    ]
   }
 ]
