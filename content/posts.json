@@ -174,5 +174,51 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "2026-11-20-dinner-first-egg-theft-second",
+    "date": "2026-11-20",
+    "category": "Development update",
+    "title": "Dinner first. Egg theft second.",
+    "summary": "A meal can buy you a quiet moment at the nest. We've also given wild eggs woven nests and added a little more life around Ripplewater Lake.",
+    "image": "clover-farm-woven-nest-20261120.jpg",
+    "imageAlt": "Two patterned eggs resting in a straw bowl with a woven wooden rim in Clover Farm",
+    "imageCaption": "New woven nests in Clover Farm. Studio Edit preview, 18 November.",
+    "sections": [
+      {
+        "heading": "Twenty seconds of peace",
+        "paragraphs": [
+          "In the development build, giving suitable food to a calm wild parent keeps it busy eating for 20 seconds. You can take an egg of its species during that meal without starting a chase from that parent.",
+          "An unfed partner can still come after you. Bring enough for both. Apparently stealing the children is acceptable, provided you've catered.",
+          "Once the meal ends, normal aggression returns. Food won't calm a parent that's already angry, so dinner needs to come before the incident."
+        ]
+      },
+      {
+        "heading": "Better accommodation for eggs",
+        "paragraphs": [
+          "All 42 wild nests now have woven rims and straw bowls shaped into the ground. From Clover Farm to Lost World, the eggs have somewhere to sit that looks like someone meant to put them there.",
+          "Even the underwater nests have shallower bowls fitted to the seabed. Considerable effort has gone into housing the eggs you intend to remove."
+        ],
+        "image": "lost-world-woven-nest-20261120.jpg",
+        "imageAlt": "Two large turquoise patterned eggs in a woven nest surrounded by tall grass in Lost World",
+        "imageCaption": "Lost World's eggs in their new nest. Studio Edit preview, 18 November."
+      },
+      {
+        "heading": "A moment by the lake",
+        "paragraphs": [
+          "Ripplewater Lake has flowering lily pads, cattails and rocks along its shore, plus a short wooden side pier and a blue-and-cream tackle nook.",
+          "The nook is scenery for now. No shopkeeper is waiting to sell you an emergency excuse."
+        ],
+        "image": "ripplewater-shore-20261120.png",
+        "imageAlt": "A small covered wooden pier beside lily pads and cattails along Ripplewater Lake",
+        "imageCaption": "The new lake shoreline and covered pier. Studio Edit preview, 19 November."
+      },
+      {
+        "heading": "Still in development",
+        "paragraphs": [
+          "These changes have been checked in Studio Edit. Feeding encounters, egg pickups, dawn spawning and movement around the new scenery still need gameplay testing. The photos show the development build, including unfinished surroundings."
+        ]
+      }
+    ]
   }
 ]
