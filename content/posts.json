@@ -1,5 +1,35 @@
 [
   {
+    "slug": "2026-11-20-early-access-launch-date",
+    "date": "2026-11-20",
+    "category": "Website news",
+    "title": "That's my Egg! early access starts 1 January",
+    "summary": "Steal an egg, outrun its guardian and see what hatches. Early access begins on Roblox at 9 am AEST (Brisbane) on Friday 1 January 2027.",
+    "image": "world.jpg",
+    "imageAlt": "Illustration of Labraduck chasing a player running away with an egg",
+    "imageCaption": "That's my Egg! game artwork.",
+    "showRobloxButton": true,
+    "sections": [
+      {
+        "heading": "Steal an egg. Then run.",
+        "paragraphs": [
+          "Your first egg run takes you into Sunnyside Backyard, where a Labrador crossed with a duck watches over the nests. The plan is simple. Grab an egg, get it back to Home and hatch it to find out what you've added to your creature collection.",
+          "Labraduck takes egg theft personally."
+        ],
+        "image": "backyard-current-20261107.jpg",
+        "imageAlt": "Labraduck standing on the grass in Sunnyside Backyard",
+        "imageCaption": "Labraduck in Sunnyside Backyard. Studio development screenshot, 7 November 2026."
+      },
+      {
+        "heading": "A fresh start",
+        "paragraphs": [
+          "All player progress resets when early access opens. We're still building the game, and we'll keep sharing what changes along the way.",
+          "Roblox age and account requirements apply."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "2026-11-07-welcome-to-thats-my-egg",
     "date": "2026-11-07",
     "category": "Website news",
@@ -31,7 +61,7 @@
         "paragraphs": [
           "We'll post a development update every four days, with new creatures, changes to the world, and a look at what we're working on. The wiki has creature profiles and guides if you'd like a closer look.",
           "Want to help test it? Join the early playtester list with your Roblox username, then look out for a friend request from OrchardStudios.",
-          "We're still building and testing the game. There's no release date yet, and Roblox access may be limited while development continues."
+          "Early access begins on Friday 1 January 2027 at 9 am AEST (Brisbane). All player progress resets when early access opens. Until then, Roblox access may be limited while we test the game."
         ],
         "image": "forest-current-20261107.jpg",
         "imageAlt": "The current Porcupython guardian on the path through Acorn Woods",
