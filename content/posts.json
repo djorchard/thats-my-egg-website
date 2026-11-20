@@ -8,7 +8,7 @@
     "image": "world.jpg",
     "imageAlt": "Illustration of Labraduck chasing a player running away with an egg",
     "imageCaption": "That's my Egg! game artwork.",
-    "showRobloxButton": true,
+    "showLaunchLinks": true,
     "sections": [
       {
         "heading": "Steal an egg. Then run.",
