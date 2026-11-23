@@ -250,5 +250,51 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "2026-11-24-the-meteor-brought-company",
+    "date": "2026-11-24",
+    "category": "Development update",
+    "title": "The meteor brought company.",
+    "summary": "Seven possible meteor hatches, three new Moonbeam creatures, and a sandstone welcome in Golden Dunes. Your creature collection has a few more gaps to fill.",
+    "image": "noddlepod-studio-20261124.png",
+    "imageAlt": "Noddlepod's spotted pink body, curled antennae and blue face in a staged Studio portrait",
+    "imageCaption": "Noddlepod, photographed from its installed game model in Studio on 22 November.",
+    "sections": [
+      {
+        "heading": "Seven possible passengers",
+        "paragraphs": [
+          "Meteor eggs have more surprises inside. In the development build, an egg from Meteore can now hatch Grim Creeper, Noddlepod, Hushstilt, Orbwink, Riftshell, Cindergoo or Starfrill. Each species has the same chance.",
+          "That gives Grim Creeper six new neighbours in the meteor collection. Noddlepod has curled antennae and a spotted coat. Orbwink appears to have spent most of its budget on eyes."
+        ],
+        "image": "orbwink-studio-20261124.png",
+        "imageAlt": "The pale Orbwink creature with enormous glossy black eyes, blue markings and small hands",
+        "imageCaption": "Orbwink's current game model. Staged Studio portrait, 22 November."
+      },
+      {
+        "heading": "Further from home",
+        "paragraphs": [
+          "Moonbeam Expanse has three more creatures to discover: Lumifin, Sneezepuff and Skitterhusk. Their eggs are in the area's normal daily pool in the development build.",
+          "Lumifin has four soft fins, Sneezepuff has a fluffy coat and plume tail, and Skitterhusk has broad fin-paws. The naming department has been left unsupervised again."
+        ]
+      },
+      {
+        "heading": "A grand entrance in Golden Dunes",
+        "paragraphs": [
+          "Sandstone cliffs now frame the route through Golden Dunes, with Meerkabou Sentinels set into the canyon walls.",
+          "One is pictured below, holding an egg in an elaborate gold-and-turquoise shrine. A very expensive way of saying 'please don't touch that'."
+        ],
+        "image": "golden-dunes-sentinel-20261124.jpg",
+        "imageAlt": "A Meerkabou sentinel holding an egg in a gold and turquoise sandstone shrine between canyon cliffs",
+        "imageCaption": "A Meerkabou sentinel in the new Golden Dunes canyon. Studio Edit preview, 22 November."
+      },
+      {
+        "heading": "What we've checked",
+        "paragraphs": [
+          "We've checked the new hatches and Moonbeam's daily egg changes in Studio. Collecting an egg from the full meteor encounter and travelling through the new desert route still need testing.",
+          "These are development previews. The alien portraits were staged in Studio, and the surrounding world is still being built."
+        ]
+      }
+    ]
   }
 ]
