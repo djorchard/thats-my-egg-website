@@ -45,8 +45,9 @@ evidence outside this public repository.
   configured sender domain and recipient to be enabled in Cloudflare.
 - /report-bug/ reuses the existing report form, screenshot annotations and
   private report service. No developer inbox or private report list is served.
-- /wiki/ covers 57 creatures and all 14 biomes plus Home. content/public-wiki.json allows only public
-  fields; source reviews, scores, asset IDs and internal notes are excluded.
+- /wiki/ has player guides, illustrated creature profiles, regional pages, and
+  search. Edit `content/public-wiki.json` for copy and facts. The build generates
+  the directories and search list from those same public records.
 - public/playtest-config.json and report-bug/config.json contain public
   service URLs and Turnstile site keys. They contain no secrets.
 

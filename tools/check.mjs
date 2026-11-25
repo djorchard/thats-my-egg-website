@@ -11,8 +11,13 @@ async function walk(folder,generated=false){for(const e of await readdir(folder,
   if(/[\u2013\u2014]/u.test(text))throw Error(`Prohibited dash in ${path}`);
   if(extname(path)==='.html'&&generated){
     pages++;
-    for(const [,raw] of text.matchAll(/(?:href|src)="([^"]+)"/g)){
-      if(/^(?:https?:|mailto:|data:|#)/.test(raw))continue;
+    const ids = new Set([...text.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]));
+    for(const [,raw] of text.matchAll(/\s(?:href|src|action)="([^"]+)"/g)){
+      if(/^(?:https?:|mailto:|data:)/.test(raw))continue;
+      if(raw.startsWith('#')){
+        if(path.startsWith(resolve(dist,'wiki')) && !ids.has(raw.slice(1)))throw Error(`Missing wiki anchor ${raw} in ${path}`);
+        continue;
+      }
       const target=raw.split(/[?#]/)[0];
       const dest=target.startsWith('/')?resolve(dist,'.'+target):resolve(dirname(path),target);
       await stat(dest);links++;

@@ -1,11 +1,11 @@
 {
-  "updated": "7 November 2026",
-  "notice": "Features, artwork, and availability may change as the game is built. This guide includes the current creature roster and regions still in development.",
+  "updated": "2026-11-26",
+  "notice": "That's my Egg! is in development. The guides describe the development build. Features, artwork, and availability may change before early access.",
   "creatures": [
     {
       "slug": "albatrossaurus",
-      "name": "Albatrossaurus",
-      "description": "Slate-blue feathers and a cream crest frame Albatrossaurus's amber eyes and hooked golden bill. It strides between fern beds, then spreads its broad wings to glide along the island cliffs.",
+      "name": "Albatrossaurus Rex",
+      "description": "Slate-blue feathers and a cream crest frame Albatrossaurus Rex's amber eyes and hooked golden bill. It strides between fern beds, then spreads its broad wings to glide along the island cliffs.",
       "animalCombination": "Tyrannosaurus rex + Albatross",
       "region": "lost_world",
       "image": "albatrossaurus.png"
@@ -149,9 +149,9 @@
     {
       "slug": "fennthorn",
       "name": "Fennthorn",
-      "description": "Fennthorn pauses on the dunes with its oversized ears raised and its blue-tipped tail held low.",
+      "description": "Fennthorn pauses on rocky ground with its oversized ears raised and its blue-tipped tail held low.",
       "animalCombination": "Fennec Fox + Thorny Devil",
-      "region": "desert",
+      "region": "volcano",
       "image": "fennthorn.png"
     },
     {
@@ -399,7 +399,7 @@
       "name": "Scorpicorn",
       "description": "Pearly armour, a flowing lavender mane and a golden spiral horn give Scorpicorn a luminous silhouette. Six small legs carry it forward, with rounded pincers at the front and a curling gold-tipped tail above its back.",
       "animalCombination": "Scorpion + Unicorn",
-      "region": "desert",
+      "region": "inferno",
       "image": "scorpicorn.png"
     },
     {
@@ -484,9 +484,9 @@
     {
       "id": "lake",
       "name": "Ripplewater Lake",
-      "description": "Shorelines, reeds, and open water are home to a wide variety of swimming and flying creatures. Hamsturtle guards the lake eggs.",
+      "description": "Shorelines, reeds, and open water are home to swimming and flying creatures. Crocodoodle Doo guards the lake eggs.",
       "route": "Main route",
-      "guardian": "Hamsturtle"
+      "guardian": "Crocodoodle Doo"
     },
     {
       "id": "forest",
@@ -519,7 +519,7 @@
     {
       "id": "lost_world",
       "name": "Lost World",
-      "description": "An island beyond Deepwater Abyss, with beaches, fern beds, and tall prehistoric greenery. Tricerahops guards its eggs, and Albatrossaurus glides along the island cliffs.",
+      "description": "An island beyond Deepwater Abyss, with beaches, fern beds, and tall prehistoric greenery. Tricerahops guards its eggs, and Albatrossaurus Rex glides along the island cliffs.",
       "route": "Water route",
       "guardian": "Tricerahops"
     },
@@ -540,9 +540,18 @@
     {
       "id": "inferno",
       "name": "The Burning Depths",
-      "description": "A future region beyond Ember Mountain on the mountain route. Its creatures and final design are still being developed.",
+      "description": "The mountain route continues beyond Ember Mountain into The Burning Depths. The development build has seven species in its egg pool.",
       "route": "Mountain route",
-      "guardian": null
+      "guardian": null,
+      "previewRoster": [
+        "Thorny Mantis",
+        "Scorpicorn",
+        "Shellure",
+        "Lemu",
+        "Aardog",
+        "Twigfrill",
+        "Wolverevil"
+      ]
     },
     {
       "id": "sky_foothills",
@@ -561,36 +570,49 @@
     {
       "id": "outer_space",
       "name": "Moonbeam Expanse",
-      "description": "A future region above Cloudtop Cliffs, planned as the farthest part of the sky route. Its creatures and final design are still being developed.",
+      "description": "Reach Moonbeam Expanse beyond Cloudtop Cliffs on the sky route. In the development build, its normal egg pool gives each of the three species below an equal chance.",
       "route": "Sky route",
-      "guardian": null
+      "guardian": null,
+      "previewRoster": [
+        "Lumifin",
+        "Sneezepuff",
+        "Skitterhusk"
+      ]
     }
   ],
   "guides": [
     {
       "slug": "getting-started",
       "title": "Getting started",
-      "summary": "The basic egg run and creature collection loop.",
+      "summary": "Find your first wild egg in Sunnyside Backyard and bring it home to hatch.",
       "sections": [
         {
           "title": "Start from Home",
           "paragraphs": [
-            "Home is the safe return point for an egg run. Head into the surrounding regions to find wild eggs and the guardians that protect them.",
+            "After the first-visit intro, a hint and arrow show your next step when your character and Home are ready. Start with a wild egg in Sunnyside Backyard.",
             "Early access begins on Friday 1 January 2027 at 9 am AEST (Brisbane). All player progress resets when early access opens. Access may be limited beforehand while Orchard Studios tests the game."
           ]
         },
         {
-          "title": "Take an egg and get back",
+          "title": "Pick up an egg and return to Home",
           "paragraphs": [
-            "Use the interaction shown on a wild egg and hold it until the pickup completes. Releasing early cancels the pickup. You carry one wild egg at a time.",
-            "Taking an egg starts a guardian chase. Return to Home with it to secure it in your inventory. Heavier eggs can make the return journey slower, so leave yourself room to get back."
+            "You can carry one wild egg at a time. Plan your return route before picking it up. A heavy egg can slow you down."
+          ],
+          "steps": [
+            "Find a wild egg in Sunnyside Backyard.",
+            "Hold Pick up until the interaction finishes. Releasing early cancels it.",
+            "Carry the egg across the Home boundary to secure it in your inventory."
           ]
         },
         {
-          "title": "Build your collection",
+          "title": "Incubate and hatch the egg",
           "paragraphs": [
-            "Once an egg is yours, it can be placed in your own purchased garden area to incubate. Use Hatch when it is ready to discover the creature inside.",
-            "Pets and eggs have separate management screens. Follow the current prompts in game for controls and available actions."
+            "Your first confirmed garden hatch completes the guide. If you leave partway through, the guide resumes from the egg’s saved progress."
+          ],
+          "steps": [
+            "Select the owned egg from your bag or slot 1.",
+            "Place it on your garden grass and check its incubation timer.",
+            "Return when the egg is ready and choose Hatch."
           ]
         }
       ]
@@ -645,8 +667,69 @@
         {
           "title": "Feeding and petting",
           "paragraphs": [
-            "Pets have different diets. Offer Fish to a pet that eats meat or Banana to one that eats plants. A pet that eats both can take either.",
-            "Use the pet's available Feed or Praise action. Feeding and petting can give temporary benefits; the in-game information shows the current effect."
+            "Offer Fish to a pet that eats meat. Banana and Corn suit plant eaters. Pets that eat both can take all three.",
+            "Hold suitable food near an owned garden pet and use Feed. Praise is available through its own prompt. Feeding can briefly increase the pet’s income.",
+            "Hungry garden pets can seek suitable dropped food. Plant eaters can also eat ripe corn in their own garden."
+          ]
+        },
+        {
+          "title": "Find flowers for your garden",
+          "paragraphs": [
+            "Look for wild flowers near the Sunnyside Backyard entrance and training dummy. Pick up a flower and plant it in your own garden.",
+            "If a spot is empty after someone picks its flower, give it time to regrow."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "guardians-and-escapes",
+      "title": "Guardians and escapes",
+      "summary": "Learn when guardians give chase and where you can get to safety.",
+      "sections": [
+        {
+          "title": "What starts a chase",
+          "paragraphs": [
+            "Taking a wild egg or attacking its guardian can provoke a chase. Through Ripplewater Lake, guardians leave empty-handed players alone unless provoked. From Acorn Woods onward, a guardian can also spot and chase an empty-handed player.",
+            "Check the Running or Swimming recommendation for the area. Players below that level can still be pursued after surviving a hit."
+          ]
+        },
+        {
+          "title": "Get back to Home",
+          "paragraphs": [
+            "While you carry its stolen egg, the original guardian can follow you across region boundaries. Cross into Home to reach safety and secure the egg.",
+            "A fence can slow your escape, and guardians can cross fences. If a guardian catches you, it knocks the egg loose before dealing damage. A guardian’s warned rush commits to a direction, so a side dodge can help."
+          ]
+        },
+        {
+          "title": "Approach quietly",
+          "paragraphs": [
+            "Use Sneak on grass or in cover when you have enough stamina. Moving while sneaking is slower. Standing still makes you harder to detect."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "meteor-eggs",
+      "title": "Meteor eggs",
+      "summary": "Find Meteore during an eclipse and see what can hatch from an alien egg.",
+      "sections": [
+        {
+          "title": "Find the fallen meteor",
+          "paragraphs": [
+            "During a rare eclipse, Meteore can land in Sunnyside Backyard, Clover Farm, Ripplewater Lake, Acorn Woods, or Jungle Wilds. Look for a clear landing site and head there before dusk."
+          ]
+        },
+        {
+          "title": "Break Meteore open",
+          "paragraphs": [
+            "Work together or take it on yourself. Meteore takes 20 club hits, 60 hand hits, or a mix. To hit it by hand, put away your equipped item and choose Hit by hand. Move closer as the rock shrinks.",
+            "Collect an alien egg from the broken meteor before dusk and hatch it in your Home garden."
+          ]
+        },
+        {
+          "title": "Possible hatchlings",
+          "paragraphs": [
+            "The development build has seven equally likely hatchlings: Grim Creeper, Noddlepod, Hushstilt, Orbwink, Riftshell, Cindergoo, and Starfrill. The egg’s quality is rolled separately. Check the Meteor section of Collection for your discoveries."
           ]
         }
       ]
