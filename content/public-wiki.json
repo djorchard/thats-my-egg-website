@@ -690,6 +690,7 @@
           "title": "What starts a chase",
           "paragraphs": [
             "Taking a wild egg or attacking its guardian can provoke a chase. Through Ripplewater Lake, guardians leave empty-handed players alone unless provoked. From Acorn Woods onward, a guardian can also spot and chase an empty-handed player.",
+            "Wild parents can react as soon as you start holding the pickup button on an egg from their species and region. Different groups can follow you if you disturb more than one species.",
             "Check the Running or Swimming recommendation for the area. Players below that level can still be pursued after surviving a hit."
           ]
         },
@@ -697,6 +698,7 @@
           "title": "Get back to Home",
           "paragraphs": [
             "While you carry its stolen egg, the original guardian can follow you across region boundaries. Cross into Home to reach safety and secure the egg.",
+            "Dropping the egg ends the chase across region boundaries. The guardian can still cross into a neighbouring region to carry its own dropped egg back to its nest.",
             "A fence can slow your escape, and guardians can cross fences. If a guardian catches you, it knocks the egg loose before dealing damage. A guardian’s warned rush commits to a direction, so a side dodge can help."
           ]
         },
@@ -716,14 +718,14 @@
         {
           "title": "Find the fallen meteor",
           "paragraphs": [
-            "During a rare eclipse, Meteore can land in Sunnyside Backyard, Clover Farm, Ripplewater Lake, Acorn Woods, or Jungle Wilds. Look for a clear landing site and head there before dusk."
+            "Each eligible in-game day has a 3 in 365 chance of an eclipse. Meteore can land in Sunnyside Backyard, Clover Farm, Ripplewater Lake, Acorn Woods, or Jungle Wilds. Follow the Meteore arrow to the falling rock and then to its landing site."
           ]
         },
         {
           "title": "Break Meteore open",
           "paragraphs": [
-            "Work together or take it on yourself. Meteore takes 20 club hits, 60 hand hits, or a mix. To hit it by hand, put away your equipped item and choose Hit by hand. Move closer as the rock shrinks.",
-            "Collect an alien egg from the broken meteor before dusk and hatch it in your Home garden."
+            "Work together or take it on yourself. Meteore has 180 health and takes 60 Club hits, 180 hand hits, or a mix. To hit it by hand, put away your equipped item and choose Hit by hand. Move closer as the rock shrinks.",
+            "The broken meteor drops one to three alien eggs. Hold the pickup button, carry an egg into the Home Safe Zone before dusk, and hatch it in your Home garden."
           ]
         },
         {
