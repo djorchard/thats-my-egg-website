@@ -4,21 +4,20 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  actions: read
   contents: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     env:
       PAGES_ARTIFACT: github-pages-${{ github.run_attempt }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      pages-artifact: ${{ env.PAGES_ARTIFACT }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,26 +27,23 @@ jobs:
       - run: npm run build
       - run: npm run check
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           name: ${{ env.PAGES_ARTIFACT }}
           path: dist
-      - name: Wait for the Pages artifact to be listed
-        timeout-minutes: 2
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          endpoint="repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=$PAGES_ARTIFACT"
-          for attempt in {1..12}; do
-            if count=$(gh api "$endpoint" --jq '[.artifacts[] | select(.expired == false)] | length') && [[ "$count" == 1 ]]; then
-              exit 0
-            fi
-            sleep 5
-          done
-          echo "::error::The Pages artifact $PAGES_ARTIFACT is unavailable through the Actions API."
-          exit 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: ${{ env.PAGES_ARTIFACT }}
+          artifact_name: ${{ needs.build.outputs.pages-artifact }}
