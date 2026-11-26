@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "notice": "That's my Egg! is in development. The guides describe the development build. Features, artwork, and availability may change before early access.",
   "creatures": [
     {
@@ -632,7 +632,8 @@
         {
           "title": "Incubation in the garden",
           "paragraphs": [
-            "Place an owned inventory egg in your own purchased garden space. It stays there while it incubates and becomes ready to hatch. Becoming ready does not hatch it automatically.",
+            "In the development build, an egg secured at Home stays in your inventory through combat, traps and drowning. These hazards can still dislodge a wild egg while you carry it back.",
+            "Select the owned egg and stand in your own purchased garden. Use Place egg, F on a keyboard, Y on a controller, or click or tap the grass. It stays there while it incubates. Come back and use Hatch when it is ready.",
             "The egg's countdown and available actions show its current state. Incubation requirements can change as development and balancing continue."
           ]
         },
