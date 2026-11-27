@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "notice": "That's my Egg! is in development. The guides describe the development build. Features, artwork, and availability may change before early access.",
   "creatures": [
     {
@@ -590,6 +590,7 @@
           "title": "Start from Home",
           "paragraphs": [
             "After the first-visit intro, a hint and arrow show your next step when your character and Home are ready. Start with a wild egg in Sunnyside Backyard.",
+            "To redeem an announced Cash code, open Shop, choose Codes, enter the code and select Redeem. One submission can reward eligible players on the server. Each Roblox account can claim the same code once.",
             "Early access begins on Friday 1 January 2027 at 9 am AEST (Brisbane). All player progress resets when early access opens. Access may be limited beforehand while Orchard Studios tests the game."
           ]
         },
@@ -655,6 +656,7 @@
           "title": "Garden, Stored, and Collection",
           "paragraphs": [
             "Garden pets live on your purchased land. Stored pets remain in your collection without taking a Garden place. The species Collection records what you have discovered.",
+            "Open a discovered creature's details to hear its signature if it has one. The sound plays once and stops when you leave the article.",
             "Garden pets can wander, nap, and be petted. An owned pet keeps its own identity and individual details when you move it between available assignments."
           ]
         },
