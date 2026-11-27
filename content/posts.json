@@ -296,5 +296,51 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "2026-11-28-your-collection-has-found-its-voice",
+    "date": "2026-11-28",
+    "category": "Development update",
+    "title": "Your collection has found its voice.",
+    "summary": "Hear creature calls in Discover, listen for the next good reel hit, and take a look at the new server-wide code rewards.",
+    "image": "labraduck-call-20261128.png",
+    "imageAlt": "Labraduck creature artwork with a duck's bill, floppy dog ears and golden feathers",
+    "imageCaption": "Labraduck's call was checked in Studio this week.",
+    "sections": [
+      {
+        "heading": "One creature at a time",
+        "paragraphs": [
+          "Discover now plays a creature's current call when you open its details, where a call is available. Close Discover or choose another creature and the first call stops or is replaced.",
+          "The grid stays quiet while you browse. One creature at a time seems enough. We checked Labraduck and Bunblebee during this week's Studio sound check."
+        ],
+        "image": "bunblebee-call-20261128.png",
+        "imageAlt": "Bunblebee creature artwork with long rabbit ears, a striped body and translucent blue wings",
+        "imageCaption": "Bunblebee also joined the Studio sound check."
+      },
+      {
+        "heading": "The fish gets a flourish",
+        "paragraphs": [
+          "Fishing now gives you a plunk when the float lands in fishable water. The first four successful hits in the green zone make a tick. The fifth reveals your catch with a short flourish.",
+          "These cues play for the person fishing. The whole lake doesn't need to applaud."
+        ],
+        "image": "fishing-timing-preview-20261128.png",
+        "imageAlt": "The fishing timing bar with a green success zone and five progress dots, three filled",
+        "imageCaption": "The fishing timing bar in an earlier Studio UI preview. This week's update adds sound feedback."
+      },
+      {
+        "heading": "One code, a shared present",
+        "paragraphs": [
+          "The development build now has a Codes tab in Shop. Redeeming an announced code can reward eligible players in that server, with each account claiming once.",
+          "Claims are saved, so rejoining or changing servers doesn't make it a new present. Someone else can press the button and you can still get the gift. A promising arrangement."
+        ]
+      },
+      {
+        "heading": "What we've checked",
+        "paragraphs": [
+          "We checked the creature calls and a full fishing sequence in Studio. Shared code rewards also passed an isolated two-player test and a fresh-server check.",
+          "These are development-build updates, with wider playtesting still ahead. The images show existing creature artwork and an earlier fishing UI preview."
+        ]
+      }
+    ]
   }
 ]
